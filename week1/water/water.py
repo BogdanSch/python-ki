@@ -7,12 +7,13 @@ def hoeveelheid_water(minuten: int) -> int:
     
     >>> hoeveelheid_water(0)
     0
-    >>> weeks_elapsed(20, 3)
-    2
-    >>> weeks_elapsed(8, 5)
-    0
-    >>> weeks_elapsed(40, 61)
-    3
+    >>> hoeveelheid_water(1)
+    12
+    >>> hoeveelheid_water(5)
+    60
+    >>> hoeveelheid_water(10)
+    120
+    """
     """
     return minuten * FLESJES_IN_MINUTE
 
