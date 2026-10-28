@@ -5,7 +5,7 @@ def hoeveelheid_water(minuten: int) -> int:
     Geeft de hoeveelheid water uit de douche, gerekend in flesjes,
     gegeven het aantal minuten douchen.
     
-    >>> weeks_elapsed(3, 20)
+    >>> hoeveelheid_water(3, 20)
     2
     >>> weeks_elapsed(20, 3)
     2
