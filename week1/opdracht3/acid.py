@@ -3,6 +3,7 @@ def is_acidic(ph: float) -> bool:
     Bepaalt het millieu van een oplossing op basis van de pH-waarde.
     return: True/False
     
+    >>> is_acidic()
     """
     return ph < 7.0
     
