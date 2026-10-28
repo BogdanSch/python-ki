@@ -8,5 +8,5 @@ else:
     
 if __name__ == "__main__":
     ph = float(input("Geef een pH-waarde: "))
-    print("Het is een zuur" if is_acidic())
+    print("Het is een zuur" if is_acidic(ph) else )
     
