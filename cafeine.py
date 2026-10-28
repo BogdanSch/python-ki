@@ -9,6 +9,4 @@ if __name__ == '__main__':
     tea = int(input("Hoeveel koppen thee? "))
     energy_drinks = int(input("Hoeveel energiedrankjes? "))
     coke = int(input("Hoeveel glazen cola? "))
- 1
- 0
- 0
+    
