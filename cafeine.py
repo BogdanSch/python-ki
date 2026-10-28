@@ -8,7 +8,7 @@ if __name__ == '__main__':
     coffee = int(input("Hoeveel koppen koffie? "))
     tea = int(input("Hoeveel koppen thee? "))
     energy_drinks = int(input("Hoeveel energiedrankjes? "))
-    coke = int(input("Hoeveel energiedrankjes? "))
+    coke = int(input("Hoeveel glazen cola? "))
  1
  0
  0
