@@ -11,4 +11,4 @@ if __name__ == '__main__':
     coke = int(input("Hoeveel glazen cola? "))
     
     cafeine_amount = calculate_cafeine(coffee, tea, energy_drinks, coke)
-    print(f"Je krijgt 225 mg cafeïne binnen.")
+    print(f"Je krijgt {cafeine_amount} mg cafeïne binnen.")
