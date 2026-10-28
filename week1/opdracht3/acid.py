@@ -1,7 +1,6 @@
 def is_acidic(ph: float) -> bool:
     """
-    Bepaalt de zuurgraad op basis van de te rijden afstand
-    naar de accomodatie (tel `km` twee keer voor heen en terug).
+    Bepaalt de zuurgraad op basis van de ph (tel `km` twee keer voor heen en terug).
     """
     return ph < 7.0
     
