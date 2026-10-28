@@ -11,8 +11,8 @@ def hoeveelheid_water(minuten: int) -> int:
     12
     >>> hoeveelheid_water(5)
     60
-    >>> hoeveelheid_water(10)
-    120
+    >>> hoeveelheid_water(100)
+    1200
     """
     return minuten * FLESJES_IN_MINUTE
 
