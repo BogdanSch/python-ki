@@ -12,7 +12,7 @@ def overnight_costs(nights: int) -> float:
     
     >>> overnight_costs(5)
     300
-    >>> 
+    >>> overnight_costs()
     """
     return 60 * nights
 
