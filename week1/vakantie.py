@@ -2,7 +2,10 @@ def travel_costs(km: int) -> float:
     """
     Bepaalt de vervoerskosten op basis van de te rijden afstand
     naar de accomodatie (tel `km` twee keer voor heen en terug).
-    
+    >>> travel_costs(0)
+    0.0
+    >>> travel_costs(100)
+    26.0
     """
     return .13 * km * 2
 
