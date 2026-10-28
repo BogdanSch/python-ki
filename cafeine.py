@@ -11,4 +11,4 @@ if __name__ == '__main__':
     coke = int(input("Hoeveel energiedrankjes? "))
  1
  0
-Hoeveel glazen cola? 0
+ 0
