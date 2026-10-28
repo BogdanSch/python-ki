@@ -9,5 +9,5 @@ if __name__ == '__main__':
     tea = int(input("Hoeveel koppen thee? "))
     coffee = int(input("Hoeveel koppen koffie? 2"))
  1
-Hoeveel energiedrankjes? 0
+ 0
 Hoeveel glazen cola? 0
