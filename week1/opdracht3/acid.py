@@ -17,7 +17,7 @@ def is_acidic(ph: float) -> bool:
     
 if __name__ == "__main__":
     ph = float(input("Geef een pH-waarde: "))
-        if is_acidic(ph):
+    if is_acidic(ph):
         print("Het is een zuur")
     else:
         print("Het is een base")
