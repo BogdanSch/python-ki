@@ -1,4 +1,4 @@
-BOTTLES_IN_MINUTE: int = 12
+FLESJES_IN_MINUTE: int = 12
 
 def hoeveelheid_water(minuten: int) -> int:
     """
