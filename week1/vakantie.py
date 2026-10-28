@@ -10,7 +10,8 @@ def overnight_costs(nights: int) -> float:
     Bepaalt de overnachtingskosten op basis van het aantal nachten
     dat je op vakantie gaat.
     
-    >>> overnight_costs()
+    >>> overnight_costs(5)
+    
     """
     return 60 * nights
 
