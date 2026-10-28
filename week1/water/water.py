@@ -1,1 +1,2 @@
 FLESJES_IN_MINUUT = 12
+
