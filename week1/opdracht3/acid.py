@@ -1,7 +1,7 @@
 def is_acidic(ph: float) -> bool:
     """
     Bepaalt de zuurgraad op basis van de pH-waarde.
-    return: 
+    return: True/False
     """
     return ph < 7.0
     
