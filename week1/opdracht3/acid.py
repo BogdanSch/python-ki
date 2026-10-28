@@ -5,4 +5,5 @@ else:
     print("Het is een base")
     
 if __name__ == "__main__":
-    int(input())
+    ph = float(input("Geef een pH-waarde: "))
+    
