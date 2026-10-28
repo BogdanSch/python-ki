@@ -15,11 +15,11 @@ def overnight_costs(nights: int) -> float:
     dat je op vakantie gaat.
     
     >>> overnight_costs(0)
-    0
+    0.0
     >>> overnight_costs(10)
-    600
+    600.0
     >>> overnight_costs(12)
-    720
+    720.0
     """
     return 60 * nights
 
