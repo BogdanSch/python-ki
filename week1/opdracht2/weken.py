@@ -13,6 +13,8 @@ def weeks_elapsed(day1: int, day2: int) -> int:
 
     """
     return (day2 - day1) // 7
+    
+    python -m doctest -v programma.py
 
 if __name__ == '__main__':
     day1 = int(input("Dagnummer 1: "))
