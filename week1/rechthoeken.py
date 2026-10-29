@@ -17,7 +17,7 @@ def calculate_length(c1: int, c2: int) -> int:
     return abs(c1 - c2)
 
 if __name__ == '__main__':
-    x1Geef de x1 van A: 0
+    x1_aGeef de x1 van A: 0
 Geef de x2 van A: 7
 Geef de y1 van A: 0
 Geef de y2 van A: 4
