@@ -6,6 +6,7 @@ def print_collatz(n: int) -> None:
             current //= 2
         else:
             current = current * 3 + 1
+    print(1)
 
 def collatz_length(n: int) -> int:
     count: int = 0
