@@ -5,7 +5,7 @@ def print_collatz(n: int) -> None:
         if current % 2 == 0:
             current /= 2
         else:
-            current = current * 3 + 
+            current = current * 3 + 1
 
 def collatz_length():
     pass
