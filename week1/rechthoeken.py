@@ -25,8 +25,8 @@ if __name__ == '__main__':
     ay2 = int(input("Geef de y2 van A:"))
     ay_length = calculate_length(ay1, ay2)
         
-    bx1 = int(input("Geef de x1 van B:")
-    bx2 = int(input("Geef de x2 van B:")
+    bx1 = int(input("Geef de x1 van B:"))
+    bx2 = int(input("Geef de x2 van B:"))
     bx_length = calculate_length(bx1, bx2)
     
     by1 = int(input("Geef de y1 van B:")
