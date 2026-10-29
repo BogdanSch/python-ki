@@ -27,5 +27,5 @@ if __name__ == '__main__':
 bx1 = Geef de x1 van B: 6
 bx2 = Geef de x2 van B: 13
 
-bx1 = Geef de y1 van B: 2
+by1 = Geef de y1 van B: 2
 Geef de y2 van B: 6
