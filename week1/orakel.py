@@ -8,7 +8,7 @@ def check_answer(answer: str) -> bool:
     True
     >>>check_answer("tweeenveertig")
     True
-    >>>check_answer("tweeenveertig")
+    >>>check_answer("tweeenzestig")
     True
     
     """
