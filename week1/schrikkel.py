@@ -1,4 +1,4 @@
-def is_leap_year(y: int) -> bool:
+def is_schrikkel(y: int) -> bool:
     """
     Bepaalt of een jaar schrikkeljaar is.
     
