@@ -1,6 +1,7 @@
 def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> bool:
     """
     Controleert of de lengtes van de zijdes gelijk zijn
+    
     >>> is_same_square(7, 4, 7, 4)
     False
     >>> is_same_square(7, 7, 7, 7)
