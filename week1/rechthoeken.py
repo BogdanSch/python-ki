@@ -17,8 +17,8 @@ def calculate_length(c1: int, c2: int) -> int:
     return abs(c1 - c2)
 
 if __name__ == '__main__':
-    ax1 = input("Geef de x1 van A: 0")
-Geef de x2 van A: 7
+    ax1 = input("Geef de x1 van A:")
+Geef de x2 van A:
 Geef de y1 van A: 0
 Geef de y2 van A: 4
 Geef de x1 van B: 6
