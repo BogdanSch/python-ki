@@ -16,6 +16,7 @@ def collatz_length():
             current /= 2
         else:
             current = current * 3 + 1
+        count += 1
 
 if __name__ == "__main__":
     n = int(input())
