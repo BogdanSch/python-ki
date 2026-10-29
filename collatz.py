@@ -11,7 +11,6 @@ def collatz_length():
     count = 0
     current = n
     while current != 1:
-        print(current)
         if current % 2 == 0:
             current /= 2
         else:
