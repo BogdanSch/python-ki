@@ -32,7 +32,7 @@ if __name__ == '__main__':
     by1 = int(input("Geef de y1 van B:")
     by2 = int(input("Geef de y2 van B:")
     by_length = calculate_length(by1, by2)
-    if 
+    if is_same_rectangle
     print("De rechthoeken zijn gelijk!")
     print("En ze zijn ook nog vierkant!")
     else:
