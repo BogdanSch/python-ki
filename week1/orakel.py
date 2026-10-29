@@ -4,13 +4,13 @@ def check_answer(answer: str) -> bool:
     42, tweeenveertig, of tweeënveertig is.
     return: bool
     
-    >>>check_answer("42")
+    >>> check_answer("42")
     True
-    >>>check_answer("tweeenveertig")
+    >>> check_answer("tweeenveertig")
     True
-    >>>check_answer("tweeënzestig")
+    >>> check_answer("tweeënzestig")
     False
-    >>>check_answer("tweeënveertig")
+    >>> check_answer("tweeënveertig")
     True
     """
     return answer == "42" or answer == "tweeenveertig" or answer == "tweeënveertig"
