@@ -49,5 +49,5 @@ def collatz_length(n: int) -> int:
 
 if __name__ == "__main__":
     n = int(input())
-    
+    print_collatz(n)
     
