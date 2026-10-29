@@ -16,4 +16,4 @@ def check_answer(answer: str) -> bool:
     return answer == "42" or answer == "tweeenveertig" or answer == "tweeënveertig"
 
 if __name__ == '__main__':
-    
+    x = input("")
