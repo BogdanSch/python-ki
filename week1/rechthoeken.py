@@ -28,4 +28,4 @@ bx1 = Geef de x1 van B: 6
 bx2 = Geef de x2 van B: 13
 
 by1 = Geef de y1 van B: 2
-Geef de y2 van B: 6
+by2 = Geef de y2 van B: 6
