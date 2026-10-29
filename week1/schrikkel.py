@@ -1,6 +1,7 @@
 def is_leap_year(y: int) -> bool:
     """
-    Bepaalt of een jaar 
+    Bepaalt of een jaar schrikkeljaar is.
+    
     >>> is_leap_year(2024)
     True
     >>> is_leap_year(2023)
