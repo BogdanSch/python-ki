@@ -13,4 +13,4 @@ def is_leap_year(y: int) -> bool:
 
 if __name__ == "__main__":
     year = int(input())
-    is_leap_year(year)
+    if is_leap_year(year)
