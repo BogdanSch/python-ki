@@ -7,7 +7,7 @@ def print_collatz(n: int) -> None:
         else:
             current = current * 3 + 1
 
-def collatz_length(n: int):
+def collatz_length(n: int) -> int:
     count = 0
     current = n
     while current != 1:
