@@ -35,7 +35,7 @@ def collatz_length(n: int) -> int:
     >>> collatz_length(3)
     8
     """
-    count: int = 0
+    count: int = 1
     
     current = n
     while current != 1:
