@@ -33,7 +33,7 @@ if __name__ == '__main__':
     by2 = int(input("Geef de y2 van B:")
     by_length = calculate_length(by1, by2)
     if is_same_rectangle():
-    print("De rechthoeken zijn gelijk!")
+        print("De rechthoeken zijn gelijk!")
     print("En ze zijn ook nog vierkant!")
     else:
         Er is niks aan :(
