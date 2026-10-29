@@ -34,4 +34,4 @@ if __name__ == '__main__':
     by_length = calculate_length(by1, by2)
     
     print("De rechthoeken zijn gelijk!")
-    print("")
+    print("En ze zijn ook nog vierkant!")
