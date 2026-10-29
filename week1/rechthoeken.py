@@ -27,6 +27,15 @@ def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: in
 def calculate_length(c1: int, c2: int) -> int:
     """
     Berekent de lengte van een zijde op basis van twee coördinaten
+    
+    >>> calculate_length(0, 7)
+    7
+    >>> calculate_length(6, 13)
+    7
+    >>> calculate_length(2, 9)
+    7
+    >>> calculate_length(6, 15)
+    9
     """
     return abs(c1 - c2)
 
