@@ -9,6 +9,18 @@ def print_collatz(n: int) -> None:
     print(1)
 
 def collatz_length(n: int) -> int:
+    """
+    Geeft de lengte van de Collatz-reeks vanaf n.
+
+    >>> collatz_length(1)
+    1
+
+    >>> collatz_length(2)
+    2
+
+    >>> collatz_length(3)
+    8
+    """
     count: int = 0
     
     current = n
