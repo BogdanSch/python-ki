@@ -6,3 +6,4 @@ def collatz_length():
 
 if __name__ == "__main__":
     n = int(input())
+    
