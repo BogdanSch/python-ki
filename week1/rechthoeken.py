@@ -34,7 +34,7 @@ if __name__ == '__main__':
     by_length = calculate_length(by1, by2)
     if is_same_rectangle(ax_length, ay_length, bx_length, by_length):
         print("De rechthoeken zijn gelijk!")
-    if 
+    if is_same_square()
     print("En ze zijn ook nog vierkant!")
     else:
         Er is niks aan :(
