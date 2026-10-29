@@ -33,4 +33,4 @@ if __name__ == '__main__':
     by2 = int(input("Geef de y2 van B:")
     by_length = calculate_length(by1, by2)
     
-    
+    De rechthoeken zijn gelijk!
