@@ -5,6 +5,7 @@ def check_answer(answer: str) -> bool:
     return: bool
     
     >>>check_answer("42")
+    True
     
     """
     return answer == "42" or answer == "tweeenveertig" or answer == "tweeënveertig"
