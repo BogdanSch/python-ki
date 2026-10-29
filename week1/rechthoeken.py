@@ -24,8 +24,8 @@ if __name__ == '__main__':
     ay1 = int(input("Geef de y1 van A:"))
     ay2 = int(input("Geef de y2 van A:"))
     
-bx1 = Geef de x1 van B: 6
-bx2 = Geef de x2 van B: 13
+bx1 = int(input("Geef de x1 van B: 6")
+bx2 = int(input("Geef de x2 van B: 13
 
-by1 = Geef de y1 van B: 2
-by2 = Geef de y2 van B: 6
+by1 = int(input("Geef de y1 van B: 2
+by2 = int(input("Geef de y2 van B: 6
