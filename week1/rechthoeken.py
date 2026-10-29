@@ -25,7 +25,7 @@ if __name__ == '__main__':
     ay2 = int(input("Geef de y2 van A:"))
     
 bx1 = int(input("Geef de x1 van B: 6")
-bx2 = int(input("Geef de x2 van B: 13
+bx2 = int(input("Geef de x2 van B: 13")
 
 by1 = int(input("Geef de y1 van B: 2
 by2 = int(input("Geef de y2 van B: 6
