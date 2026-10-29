@@ -25,6 +25,6 @@ if __name__ == '__main__':
     ay2 = int(input("Geef de y2 van A:"))
     
 bx1 = Geef de x1 van B: 6
-Geef de x2 van B: 13
+bx2 = Geef de x2 van B: 13
 Geef de y1 van B: 2
 Geef de y2 van B: 6
