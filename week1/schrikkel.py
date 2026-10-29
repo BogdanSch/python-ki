@@ -16,5 +16,5 @@ if __name__ == "__main__":
     if is_leap_year(year):
         print(f"{year} is schrikkeljaar")
     else:
-        print(f"{year} is schrikkeljaar")
+        print(f"{year} is geen schrikkeljaar")
         
