@@ -1,6 +1,6 @@
 def print_collatz(n: int) -> None:
     current = n
-    while :
+    while current :
 
 def collatz_length():
     pass
