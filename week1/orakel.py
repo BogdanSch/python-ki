@@ -17,3 +17,5 @@ def check_answer(answer: str) -> bool:
 
 if __name__ == '__main__':
     x = input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?")
+    
+    if
