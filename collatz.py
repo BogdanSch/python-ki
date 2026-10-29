@@ -1,5 +1,5 @@
 def print_collatz():
-    while()
+    while :
 
 def collatz_length():
     pass
