@@ -16,6 +16,7 @@ def collatz_length(n: int) -> int:
         else:
             current = current * 3 + 1
         count += 1
+    return count
 
 if __name__ == "__main__":
     n = int(input())
