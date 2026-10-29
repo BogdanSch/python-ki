@@ -19,7 +19,7 @@ def calculate_length(c1: int, c2: int) -> int:
 if __name__ == '__main__':
     ax1 = int(input("Geef de x1 van A:"))
     ax2 = int(input("Geef de x2 van A:"))
-    ax_length =
+    ax_length = calculate_length(ax1, ax2)
     
     Geef de y1 van A:
 Geef de y2 van A: 4
