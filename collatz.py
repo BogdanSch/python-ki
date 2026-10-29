@@ -1,4 +1,21 @@
 def print_collatz(n: int) -> None:
+        """
+    Print de Collatz-reeks vanaf n.
+
+    >>> print_collatz(1)
+    1
+
+    >>> print_collatz(3)
+    3
+    10
+    5
+    16
+    8
+    4
+    2
+    1
+    """
+    
     current = n
     while current != 1:
         print(current)
