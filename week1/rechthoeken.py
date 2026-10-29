@@ -21,7 +21,7 @@ if __name__ == '__main__':
     ax2 = int(input("Geef de x2 van A:"))
     ax_length = calculate_length(ax1, ax2)
     
-    Geef de y1 van A:
+    ax1 = int(input("Geef de y1 van A:"))
 Geef de y2 van A:
 Geef de x1 van B: 6
 Geef de x2 van B: 13
