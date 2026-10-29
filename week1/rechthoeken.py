@@ -37,4 +37,4 @@ if __name__ == '__main__':
     if is_same_square(ax_length, ay_length, bx_length, by_length)
         print("En ze zijn ook nog vierkant!")
     else:
-        Er is niks aan :(
+        print("Er is niks aan :(
