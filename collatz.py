@@ -10,6 +10,7 @@ def print_collatz(n: int) -> None:
 
 def collatz_length(n: int) -> int:
     count: int = 0
+    
     current = n
     while current != 1:
         if current % 2 == 0:
@@ -17,6 +18,7 @@ def collatz_length(n: int) -> int:
         else:
             current = current * 3 + 1
         count += 1
+        
     return count
 
 if __name__ == "__main__":
