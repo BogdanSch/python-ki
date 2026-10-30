@@ -7,7 +7,12 @@ def get_positive_int() -> int:
     return number
 
 def get_any_int_but_0() -> int:
-    pass
+    number = int(input("Enter a positive int: "))
+    
+    while number <= 0:
+        number = int(input("Enter a positive int: "))
+
+    return number
 
 def get_min_int() -> int:
     pass
