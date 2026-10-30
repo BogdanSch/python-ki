@@ -17,5 +17,6 @@ def print_piramide(height: int) -> None:
 if __name__ == "__main__":
     #  niet groter dan 23
     height = int(input("Hoe hoog moet de piramide zijn? "))
-    while height <= 0 or height > 23
+    while height <= 0 or height > 23:
+        height = int(input("Hoe hoog moet de piramide zijn? "))
     print_piramide(height)
