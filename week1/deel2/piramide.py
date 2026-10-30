@@ -1,4 +1,5 @@
 def print_piramide(height: int) -> None:
+    
         ##
    ###
   ####
