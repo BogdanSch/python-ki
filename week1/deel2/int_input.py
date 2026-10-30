@@ -23,6 +23,7 @@ def get_two_different_ints() -> tuple[int, int]:
     number1 = int(input(f"Enter the first unique int: "))
     number2 = int(input(f"Enter the second unique int: "))
     while number1 == number2:
+        number1 = int(input(f"Enter the first unique int: "))
         number2 = int(input("Enter the second unique int: "))
 
     return (number1, number2)
