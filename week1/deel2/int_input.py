@@ -14,7 +14,7 @@ def get_any_int_but_0() -> int:
 
     return number
 
-def get_min_int() -> int:
+def get_min_int(minimum: int) -> int:
     number = int(input("Enter any int except 0: "))
     
     while number == 0:
@@ -22,7 +22,7 @@ def get_min_int() -> int:
 
     return number
 
-def get_two_different_ints(minimum: int) -> tuple:
+def get_two_different_ints() -> tuple:
     
 
 if __name__ == '__main__':
