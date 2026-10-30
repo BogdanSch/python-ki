@@ -12,8 +12,8 @@ def print_piramide(height: int) -> None:
     ####
     """
     for i in range(height):
-        total_spaces = 
-        for j in range(height - (1 + i))
+        total_spaces = height - (1 + i)
+        for j in range()
             print(" ", end="")
         for j in range(i + 2)
             print("#", end="")
