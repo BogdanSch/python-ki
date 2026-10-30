@@ -12,7 +12,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     """
-    max_spaces = len(str(end_temp))
     
     new_type = "F" if old_type == "c" else "C"
     print(f"{old_type:>2} | {new_type:2}")
