@@ -25,5 +25,5 @@ if __name__ == '__main__':
     while amount <= 0:
         amount = float(input("Hoeveel wisselgeld moet er gegeven worden? "))
     
-    print()
+    print(count_coins())
         
