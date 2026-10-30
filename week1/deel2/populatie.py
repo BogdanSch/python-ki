@@ -20,3 +20,5 @@ if __name__ == '__main__':
     while start_size <= start_size:
         end_size = int(input("Eindgrootte: "))
         
+    print(f"Jaren {}")
+        
