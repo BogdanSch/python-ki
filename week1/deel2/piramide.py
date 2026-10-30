@@ -16,8 +16,8 @@ def print_piramide(height: int) -> None:
         for j in range(total_spaces):
             print(" ", end="")
         
-        total_hashes = 
-        for j in range(i + 2):
+        total_hashes = i + 2
+        for j in range(total_hashes):
             print("#", end="")
         print()
 
