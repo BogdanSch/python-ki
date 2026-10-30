@@ -17,7 +17,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     print(f"{old_type:>2} | {new_type:2}")
     
     for i in range(begin_temp, end_temp + 1, step_size):
-        spaces = max_spaces - len(i)
         print(f"{i:>2} | {int(convert_temperature(old_type, i)):2}")
 
 if __name__ == "__main__":
