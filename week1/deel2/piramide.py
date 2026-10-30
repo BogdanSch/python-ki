@@ -1,5 +1,5 @@
 def print_piramide(height: int) -> None:
-    for i in range():
+    for i in range(height):
         
     ##
    ###
