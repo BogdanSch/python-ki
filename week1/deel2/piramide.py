@@ -12,8 +12,8 @@ def print_piramide(height: int) -> None:
     ####
     """
     for i in range(height):
-        for j in range()
-        print(" " * (height - (1 + i)) + "#" * (i + 2))
+        for j in range(height - (1 + i) + 1)
+        print(" " * () + "#" * (i + 2))
 
 if __name__ == "__main__":
     #  niet groter dan 23
