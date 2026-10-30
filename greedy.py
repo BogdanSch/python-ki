@@ -4,8 +4,7 @@ def count_coins(cents: int) -> int:
     waarmee het bedrag `cents` kan worden teruggegeven.
     """
     count = 0
-    while cents > 0:
-        if cents - 25 > 0:
+    while cents - 25 > 0:
             cents -= 25
             count += 1
     
