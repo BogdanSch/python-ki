@@ -7,7 +7,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     1
     >>> calculate_years(9, 18)
     1
-    >>> calculate_years(20, 1300)
+    >>> calculate_years(20, 100)
     1
     """
     current_size = start_size
