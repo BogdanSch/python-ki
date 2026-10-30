@@ -20,7 +20,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     
     for i in range(begin_temp, end_temp + 1, step_size):
         spaces = max_spaces - len(i)
-        print(f"{i:} | {int(convert_temperature(old_type, i))}")
+        print(f"{i:>} | {int(convert_temperature(old_type, i))}")
 
 if __name__ == "__main__":
     unit = input("Welke eenheid van temperatuur (C of F)? ").lower()
