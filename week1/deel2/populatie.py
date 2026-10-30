@@ -3,6 +3,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     Berekent het aantal jaar dat het duurt voor de populatie om
     end_size te bereiken.
     """
+    current_size = start_size
     total_birth = n // 3
     total_dead = n // 4
     
