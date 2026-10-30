@@ -3,6 +3,7 @@ def count_coins(cents: int) -> int:
     Berekent het minimale aantal munten (25, 10, 5 en 1 cent)
     waarmee het bedrag `cents` kan worden teruggegeven.
     """
+    count = 0
     while cents  
     
 
