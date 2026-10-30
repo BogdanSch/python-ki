@@ -15,7 +15,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     max_spaces = len(str(end_temp))
     
     new_type = "F" if old_type == "c" else "C"
-    spaces = new_type - max_spaces
+    spaces = len(new_type) - max_spaces
     
     print(f"{old_type:>} | {new_type}")
     
