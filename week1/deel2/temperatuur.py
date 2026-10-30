@@ -19,7 +19,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         print(f"{int(i)} | {int(convert_temperature(old_type, i))}")
 
 if __name__ == "__main__":
-    unit = input("Welke eenheid van temperatuur (C of F)? C").lower()
+    unit = input("Welke eenheid van temperatuur (C of F)? ").lower()
     begin_temp = input("Wat is de begintemperatuur? ")
     end_temp = input("Wat is de eindtemperatuur? ")
     step_size = input("Wat is de stapgrootte? ")
