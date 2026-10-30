@@ -13,7 +13,7 @@ def count_coins(cents: int) -> int:
         cents -= 25
         count += 1
     
-    while cents - 10 > 0:
+    while cents - 10 >= 0:
         cents -= 10
         count += 1
         
