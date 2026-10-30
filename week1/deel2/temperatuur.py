@@ -12,6 +12,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     """
+    new_type 
     print("")
     for i in range(begin_temp, end_temp + 1, step_size):
         
