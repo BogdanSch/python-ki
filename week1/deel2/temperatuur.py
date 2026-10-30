@@ -16,7 +16,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     print(f"{old_type} | {new_type}")
     
     for i in range(begin_temp, end_temp + 1, step_size):
-        print(f"{}")
+        print(f"{i}")
 
 if __name__ == "__main__":
     unit = input("Welke eenheid van temperatuur (C of F)? C").lower()
