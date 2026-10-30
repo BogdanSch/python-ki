@@ -4,6 +4,7 @@ def get_positive_int():
     while number <= 0:
         number = int(input("Enter a positive int:"))
     
+    return number
 
 if __name__ == '__main__':
     get_positive_int()
