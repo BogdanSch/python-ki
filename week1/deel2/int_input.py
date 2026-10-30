@@ -21,7 +21,7 @@ def get_min_int(minimum: int) -> int:
 
 def get_two_different_ints() -> tuple:
     number1 = int(input(f"Enter a unique int: "))
-    number2 = 
+    number2 = int(input(f"Enter a unique int: "))
     while number < minimum:
         number = int(input("Enter a unique int: "))
 
