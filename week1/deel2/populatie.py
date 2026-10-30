@@ -4,6 +4,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     end_size te bereiken.
     
     >>> calculate_years(1200, 1300)
+    1
     
     """
     current_size = start_size
