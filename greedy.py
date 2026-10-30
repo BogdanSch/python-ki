@@ -19,7 +19,7 @@ def count_coins(cents: int) -> int:
     while cents - 1 > 0:
         cents -= 1
         count += 1
-    
+    retrun count
 
 if __name__ == '__main__':
     amount = float(input("Hoeveel wisselgeld moet er gegeven worden? "))
