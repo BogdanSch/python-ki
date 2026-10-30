@@ -7,7 +7,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     total_birth = n // 3
     total_dead = n // 4
     
-    
+    current_size += total_birth 
 
 if __name__ == '__main__':
     start_size = int(input("Startgrootte: "))
