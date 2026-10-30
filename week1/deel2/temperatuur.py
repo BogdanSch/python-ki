@@ -17,5 +17,6 @@ if __name__ == "__main__":
     end_temp = input("Wat is de eindtemperatuur? ")
     step_size = input("Wat is de stapgrootte? ")
     
-    print_table()
+    if unit == "c":
+        print_table()   
     
