@@ -19,7 +19,7 @@ def get_min_int(minimum: int) -> int:
 
     return number
 
-def get_two_different_ints() -> tuple[int, int]:
+def get_two_different_ints() -> tuple:
     number1 = int(input(f"Enter the first unique int: "))
     number2 = int(input(f"Enter the second unique int: "))
     while number1 == number2:
