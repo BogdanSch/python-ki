@@ -1,4 +1,4 @@
-def print_piramide():
+def print_piramide(height: int) -> None:
     
 
 if __name__ == "__main__":
