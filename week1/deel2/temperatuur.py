@@ -26,7 +26,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
      10 |  50
      15 |  59
      20 |  68
-    >>> convert_temperature("f", 0, 10, 2)
+    >>> print_table("f", 0, 10, 2)
       F |   C
       0 | -17
       2 | -16
