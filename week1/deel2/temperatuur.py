@@ -4,7 +4,9 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     de temperatuur van het nieuwe type.
     """
     if old_type == "c":
-        return (18C + 320) / 10
+        return (18 * old_temp + 320) / 10
+    else:
+        return 
 
 def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
     """
