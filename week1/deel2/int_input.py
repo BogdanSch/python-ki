@@ -1,4 +1,4 @@
-def get_positive_int():
+def get_positive_int2():
     number = int(input("Enter a positive int:"))
     
     while number <= 0:
@@ -6,7 +6,7 @@ def get_positive_int():
     
 
 if __name__ == '__main__':
-    get_positive_int()
+    get_positive_int2()
     get_any_int_but_0()
     get_min_int(100)
     get_two_different_ints()
