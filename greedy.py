@@ -4,6 +4,8 @@ def count_coins(cents: int) -> int:
     waarmee het bedrag `cents` kan worden teruggegeven.
     >>> count_coins(41)
     4
+    >>> count_coins(50)
+    2
     """
     count = 0
     
