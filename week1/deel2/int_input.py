@@ -1,8 +1,8 @@
 def get_positive_int():
-    number = int(input("Enter a positive int:"))
+    number = int(input("Enter a positive int: "))
     
     while number <= 0:
-        number = int(input("Enter a positive int:"))
+        number = int(input("Enter a positive int: "))
 
     return number
 
