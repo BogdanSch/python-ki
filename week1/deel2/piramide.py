@@ -13,7 +13,7 @@ def print_piramide(height: int) -> None:
     """
     for i in range(height):
         for j in range(height - (1 + i))
-            print(" " * () )
+            print(" ", end="")
         for j in range((i + 2))
 
 if __name__ == "__main__":
