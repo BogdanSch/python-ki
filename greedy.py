@@ -8,8 +8,8 @@ def count_coins(cents: int) -> int:
     2
     >>> count_coins(1)
     1
-    >>> count_coins(100)
-    1
+    >>> count_coins(125)
+    5
     """
     count = 0
     
