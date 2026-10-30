@@ -11,7 +11,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     >>> convert_temperature("f", 0)
     -17
     """
-    if old_type == "c":
+    if old_type.lower() == "c":
         return int((18 * old_temp + 320) / 10.0)
     else:
         return int((10 * old_temp - 320) / 18.0)
