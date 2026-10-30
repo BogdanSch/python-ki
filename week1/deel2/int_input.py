@@ -1,5 +1,5 @@
 def get_positive_int():
-    int(input(""))
+    int(input("Enter an odd int:"))
 
 if __name__ == '__main__':
     get_positive_int()
