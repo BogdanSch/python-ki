@@ -11,6 +11,14 @@ def count_coins(cents: int) -> int:
     while cents - 10 > 0:
         cents -= 10
         count += 1
+        
+    while cents - 10 > 0:
+        cents -= 10
+        count += 1
+        
+    while cents - 10 > 0:
+        cents -= 10
+        count += 1
 
 if __name__ == '__main__':
     <Vraag om het bedrag tot het geldig is, zet het om naar centen,
