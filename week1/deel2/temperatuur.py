@@ -43,7 +43,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         return
     
     for i in range(begin_temp, end_temp + 1, step_size):
-        print(f"{i:>2} | {int(convert_temperature(old_type, i)):2}")
+        print(f"{i:>3} | {int(convert_temperature(old_type, i)):3}")
 
 if __name__ == "__main__":
     unit = input("Welke eenheid van temperatuur (C of F)? ").lower()
