@@ -25,8 +25,6 @@ def get_two_different_ints() -> tuple:
         number = int(input("Enter a number >= {minimum}:"))
 
     return number
-    
-    
 
 if __name__ == '__main__':
     get_positive_int()
