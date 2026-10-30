@@ -7,7 +7,7 @@ def get_positive_int() -> int:
     return number
 
 def get_any_int_but_0() -> int:
-    number = int(input("Enter any int except 0 positive int: "))
+    number = int(input("Enter any int except 0: "))
     
     while number == 0:
         number = int(input("Enter a positive int: "))
