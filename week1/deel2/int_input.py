@@ -20,7 +20,7 @@ def get_min_int(minimum: int) -> int:
     return number
 
 def get_two_different_ints() -> tuple:
-    number = int(input(f"Enter a number >= {minimum}: "))
+    number1 = int(input(f"Enter a number >= {minimum}: "))
     while number < minimum:
         number = int(input("Enter a number >= {minimum}:"))
 
