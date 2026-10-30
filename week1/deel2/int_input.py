@@ -9,6 +9,9 @@ def get_positive_int() -> int:
 def get_any_int_but_0() -> int:
     pass
 
+def get_min_int() -> int:
+    pass
+
 def 
 
 if __name__ == '__main__':
