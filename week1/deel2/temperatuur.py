@@ -15,5 +15,5 @@ if __name__ == "__main__":
     unit = input("Welke eenheid van temperatuur (C of F)? C").lower()
     t_begin = input("Wat is de begintemperatuur? ")
     t_end = input("Wat is de eindtemperatuur? ")
-    input("Wat is de stapgrootte? ")
+    step_size = input("Wat is de stapgrootte? ")
     
