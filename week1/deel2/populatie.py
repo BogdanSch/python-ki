@@ -7,7 +7,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     
     while current_size != end_size:
         total_birth = current_size // 3
-        total_death = n // 4
+        total_death = current_size // 4
         
         current_size += total_birth - total_death
 
