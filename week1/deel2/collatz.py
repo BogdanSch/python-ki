@@ -23,7 +23,6 @@ def print_collatz(n: int) -> None:
         else:
             current = current * 3 + 1
     print(1)
-    return None
 
 def collatz_length(n: int) -> int:
     """
