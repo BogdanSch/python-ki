@@ -8,8 +8,8 @@ def print_piramide(height: int) -> None:
     ######
     >>> print_piramide(3)
       ##
- ###
-####
+     ###
+    ####
     """
     for i in range(height):
         print(" " * (height - (1 + i)) + "#" * (i + 2))
