@@ -25,7 +25,7 @@ def get_two_different_ints() -> tuple:
     while number1 == number2:
         number2 = int(input("Enter a unique int: "))
 
-    return number
+    return number1, number2
 
 if __name__ == '__main__':
     get_positive_int()
