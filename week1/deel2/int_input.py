@@ -15,7 +15,12 @@ def get_any_int_but_0() -> int:
     return number
 
 def get_min_int() -> int:
-    pass
+    number = int(input("Enter any int except 0: "))
+    
+    while number == 0:
+        number = int(input("Enter any int except 0: "))
+
+    return number
 
 def get_two_different_ints(minimum: int) -> tuple:
     
