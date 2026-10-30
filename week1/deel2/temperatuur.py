@@ -15,6 +15,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     new_type = "F" if old_type == "c" else "C"
     print(f"{old_type} | {new_type}")
     for i in range(begin_temp, end_temp + 1, step_size):
+        print()
         
 
 if __name__ == "__main__":
