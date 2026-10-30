@@ -1,5 +1,5 @@
 def get_positive_int():
-    value = int(input("Enter a positive int:"))
+    number = int(input("Enter a positive int:"))
 
 if __name__ == '__main__':
     get_positive_int()
