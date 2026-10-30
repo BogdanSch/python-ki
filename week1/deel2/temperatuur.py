@@ -13,6 +13,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     """
     
+    
     new_type = "F" if old_type == "c" else "C"
     print(f"{old_type} | {new_type}")
     
