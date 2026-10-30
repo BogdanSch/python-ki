@@ -18,7 +18,7 @@ def get_min_int(minimum: int) -> int:
     number = int(input(f"Enter a number >= {minimum}: "))
     
     while number == 0:
-        number = int(input("Enter any int except 0: "))
+        number = int(input("Enter a number >= {minimum}:"))
 
     return number
 
