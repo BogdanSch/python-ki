@@ -13,7 +13,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
         current_size += total_birth - total_death
         years_total += 1
     
-    return 
+    return years_total
 
 if __name__ == '__main__':
     start_size = int(input("Startgrootte: "))
