@@ -12,7 +12,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     """
-    for 
+    for
 
 if __name__ == "__main__":
     unit = input("Welke eenheid van temperatuur (C of F)? C").lower()
