@@ -8,9 +8,8 @@ def count_coins(cents: int) -> int:
         cents -= 25
         count += 1
     
-    while cents > 0:
-        if cents - 25 > 0:
-            cents -= 25
+    while cents - 10 > 0:
+            cents -= 10
             count += 1
 
 if __name__ == '__main__':
