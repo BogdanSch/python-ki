@@ -1,4 +1,4 @@
-def print_collatz(n: int) -> float:
+def print_collatz(n: int) -> None:
     """
     Print de Collatz-reeks vanaf n.
 
