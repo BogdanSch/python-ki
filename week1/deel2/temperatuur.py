@@ -19,7 +19,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
 def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
     """
     Print de conversie-tabel.
-    >>> convert_temperature("c", 0)
+    >>> print_table("c", 0)
     >>> convert_temperature("c", 0)
     
     """
