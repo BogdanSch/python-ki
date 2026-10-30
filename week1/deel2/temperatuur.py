@@ -20,6 +20,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     >>> print_table("c", 0, 20, 5)
+    
     >>> convert_temperature("c", 0)
     
     """
