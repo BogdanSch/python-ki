@@ -4,7 +4,7 @@ def count_coins(cents: int) -> int:
     waarmee het bedrag `cents` kan worden teruggegeven.
     """
     count = 0
-    while cents  
+    while cents   
     
 
 if __name__ == '__main__':
