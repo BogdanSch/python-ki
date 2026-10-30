@@ -23,8 +23,10 @@ if __name__ == "__main__":
     unit = input("Welke eenheid van temperatuur (C of F)? ").lower()
     begin_temp = int(input("Wat is de begintemperatuur? "))
     end_temp = int(input("Wat is de eindtemperatuur? "))
+    
     step_size = int(input("Wat is de stapgrootte? "))
     while step_size <= 0:
+        step_size = int(input("Wat is de stapgrootte? "))
         
     
     print_table(unit, begin_temp, end_temp, step_size)
