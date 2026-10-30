@@ -14,6 +14,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
 if __name__ == "__main__":
     input("Welke eenheid van temperatuur (C of F)? C").lower()
     input("Wat is de begintemperatuur? ")
-    input("Wat is de eindtemperatuur? 20")
-    input("Wat is de stapgrootte? 5")
+    input("Wat is de eindtemperatuur? ")
+    input("Wat is de stapgrootte? ")
     
