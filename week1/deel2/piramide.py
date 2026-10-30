@@ -14,7 +14,7 @@ def print_piramide(height: int) -> None:
     for i in range(height):
         for j in range(height - (1 + i))
             print(" ", end="")
-        for j in range((i + 2))
+        for j in range(i + 2)
             print("#", end="")
         print()
 
