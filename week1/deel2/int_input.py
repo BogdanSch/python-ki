@@ -12,7 +12,8 @@ def get_any_int_but_0() -> int:
 def get_min_int() -> int:
     pass
 
-def 
+def get_two_different_ints() -> tuple:
+    
 
 if __name__ == '__main__':
     get_positive_int()
