@@ -1,4 +1,4 @@
-def get_positive_int():
+def get_positive_int() -> int:
     number = int(input("Enter a positive int: "))
     
     while number <= 0:
@@ -6,7 +6,10 @@ def get_positive_int():
 
     return number
 
-def get_any_int_but_0()
+def get_any_int_but_0() -> int:
+    pass
+
+def 
 
 if __name__ == '__main__':
     get_positive_int()
