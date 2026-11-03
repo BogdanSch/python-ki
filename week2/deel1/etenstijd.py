@@ -19,7 +19,7 @@ def meal(time: str) -> str | None:
     
     if 7 <= hour <= 8:
         if (hour == 7 and 0 <= minutes <= 59):
-            
+            return None
         return "ontbijt"
     elif 12 <= hour <= 13 or (hour == 12 and 0 <= minutes <= 59):
         return "lunch"
