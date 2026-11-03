@@ -12,7 +12,8 @@ def meal(time: str) -> str | None:
     time_components = time.split(":")
     hour = int(time_components[0])
     minute_components = time_components[1].split(" ")
-    minutes = int([0])
+    minutes = int(minute_components[0])
+    
     
     if 7 <= hour <= 8 or (hour == 7 and 0 <= minutes <= 59):
         return "ontbijt"
