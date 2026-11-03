@@ -11,7 +11,8 @@ def compare(word1: str, word2: str) -> int:
         
         if lower_letter_word1 < lower_letter_word2:
             return -1
-        elif lower_word1 > lower_word2
+        elif lower_letter_word1 > lower_letter_word2:
+            return 1
             
             
     
