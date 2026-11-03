@@ -18,15 +18,15 @@ def meal(time: str) -> str | None:
         hour += 12   
     
     if 7 <= hour <= 8:
-        if (hour == 8 and 0 < minutes <= 59):
+        if hour == 8 and 0 < minutes <= 59):
             return None
         return "ontbijt"
     elif 12 <= hour <= 13:
-        if (hour == 13 and 0 <= minutes <= 59):
+        if hour == 13 and 0 <= minutes <= 59):
             return None
         return "lunch"
     elif 18 <= hour <= 19:
-        if (hour == 18 and 0 <= minutes <= 59):
+        if hour == 18 and 0 <= minutes <= 59):
             return None
         return "avondeten"
     return None
