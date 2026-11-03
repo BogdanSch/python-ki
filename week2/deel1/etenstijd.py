@@ -5,6 +5,7 @@ def meal(time: str) -> str | None:
     """
     hour = 
     if 7 <=  hour <= 8:
+        return ""
     elif 12 <= hour <= 13
     elif 18 <= hour <= 19:
 
