@@ -5,4 +5,5 @@ def meal(time: str) -> str | None:
     """
 
 if __name__ == '__main__':
-    
+    Hoe laat is het? 7:15
+Het is tijd voor ontbijt
