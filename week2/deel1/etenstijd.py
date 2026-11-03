@@ -3,6 +3,7 @@ def meal(time: str) -> str | None:
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
+    hour = 
     if 7:00 <=  <= 8:00:
     elif 18
 
