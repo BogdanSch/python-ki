@@ -8,3 +8,5 @@ if __name__ == '__main__':
     x = int(elements[0])
     y = elements[1]
     z = int(elements[2])
+    
+    evaluate(x, y, z)
