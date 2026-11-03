@@ -7,8 +7,9 @@ def meal(time: str) -> str | None:
     if 7 <=  hour <= 8:
         return "ontbijt"
     elif 12 <= hour <= 13
-        return "ontbijt"
+        return "lunch"
     elif 18 <= hour <= 19:
+        return "avondeten"
 
 if __name__ == '__main__':
     time = input("Hoe laat is het? ")
