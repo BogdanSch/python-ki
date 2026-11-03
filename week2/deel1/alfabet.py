@@ -3,7 +3,7 @@ def compare(word1: str, word2: str) -> int:
     >>>
     """
     if word1 == word2:
-        return "No need to decide!"
+        return 0
     
     for i in range():
         if word1[i] == word2[i]:
