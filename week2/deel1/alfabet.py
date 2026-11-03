@@ -3,7 +3,7 @@ def compare(word1: str, word2: str) -> int:
     >>>
     """
     min_length = min(len(word1), len(word2))
-    for i in range():
+    for i in range(min_length):
         lower_letter_word1 = word1[i].lower()
         lower_letter_word2 = word2[i].lower()
         
