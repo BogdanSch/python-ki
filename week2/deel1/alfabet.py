@@ -16,7 +16,7 @@ def compare(word1: str, word2: str) -> int:
         largest = word1
     else:
         largest = word2
-        
+    
     
         
         
