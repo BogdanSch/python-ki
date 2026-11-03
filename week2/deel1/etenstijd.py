@@ -7,6 +7,7 @@ def meal(time: str) -> str | None:
     if 7 <=  hour <= 8:
         return "ontbijt"
     elif 12 <= hour <= 13
+        return "ontbijt"
     elif 18 <= hour <= 19:
 
 if __name__ == '__main__':
