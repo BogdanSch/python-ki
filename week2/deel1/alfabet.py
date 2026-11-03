@@ -37,4 +37,6 @@ if __name__ == '__main__':
         print("No need to decide!")
     elif result == -1:
         print(word1 + " first")
+    elif result == -1:
+        print(word1 + " first")
         
