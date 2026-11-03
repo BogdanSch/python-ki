@@ -10,7 +10,7 @@ def meal(time: str) -> str | None:
     'avondeten'
     """
     time_components = time.split(":")
-    hour = int(time_components[0])
+    hour,  = int(time_components[0])
     
     rest = time_components[1].split(" ")
     minutes = int(rest[0])
