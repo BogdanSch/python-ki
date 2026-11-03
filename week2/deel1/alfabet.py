@@ -22,16 +22,6 @@ def compare(word1: str, word2: str) -> int:
     else if len(word2) > len(word1):
         return 1
     return 0
-    
-    
-        
-        
-
-    return 0
-            
-    
-    
-    
 
 if __name__ == '__main__':
     word1 = input("Woord 1: ")
