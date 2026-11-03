@@ -1,6 +1,6 @@
 def compare(word1: str, word2: str) -> int:
     """
-    Vergelijkt beide woorden en geeft 1 als woord1 eerder in het alfabet voorkomt,
+    Vergelijkt beide woorden en geeft -1 als woord1 eerder in het alfabet voorkomt,
     1 als woord2 eerder in het alfabet voorkomt dan is de uitkomst 1
     >>> compare("Taylor", "Lana")
     -1
