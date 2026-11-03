@@ -4,7 +4,7 @@ def compare(word1: str, word2: str) -> int:
     -1
     >>> compare("shark", "sWoRd")
     1
-    >>> compare("Taylor", "Lana")
+    >>> compare("Daantje", "Lana")
     -1
     """
     min_length = min(len(word1), len(word2))
