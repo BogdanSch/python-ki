@@ -9,5 +9,4 @@ if __name__ == '__main__':
     
     meal_type = meal(time)
     if meal_type is not None:
-        
-Het is tijd voor ontbijt
+        print(f"Het is tijd voor {meal_type}")
