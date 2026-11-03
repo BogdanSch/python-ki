@@ -32,6 +32,7 @@ if __name__ == '__main__':
     word1 = input("Woord 1: ")
     word2 = input("Woord 2: ")
     
+    result = 
     if compare(word1, word2) == 0:
         print("No need to decide!")
     elif 
