@@ -11,7 +11,8 @@ def meal(time: str) -> str | None:
     """
     time_components = time.split(":")
     hour = int(time_components[0])
-    minute_components = time_components[1].split(" ")
+    
+    rest = time_components[1].split(" ")
     minutes = int(minute_components[0])
     if minute_components[-1]
     
