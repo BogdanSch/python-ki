@@ -35,4 +35,5 @@ if __name__ == '__main__':
     result = compare(word1, word2)
     if result == 0:
         print("No need to decide!")
-    elif 
+    elif result == 1:
+        
