@@ -6,4 +6,5 @@ def evaluate(x: int, y: str, z: int) -> float:
 if __name__ == '__main__':
     elements = input("").split(" ")
     x = int(elements[0])
+    
     y = int(elements[2])
