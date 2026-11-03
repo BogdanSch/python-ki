@@ -16,6 +16,7 @@ def meal(time: str) -> str | None:
         return "lunch"
     elif 18 <= hour <= 19:
         return "avondeten"
+    return None
 
 if __name__ == '__main__':
     time = input("Hoe laat is het? ")
