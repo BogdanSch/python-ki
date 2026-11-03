@@ -6,7 +6,7 @@ def meal(time: str) -> str | None:
     hour = time.split(":")[0]
     if 7 <=  hour <= 8:
         return "ontbijt"
-    elif 12 <= hour <= 13
+    elif 12 <= hour <= 13:
         return "lunch"
     elif 18 <= hour <= 19:
         return "avondeten"
