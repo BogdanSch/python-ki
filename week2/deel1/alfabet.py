@@ -13,7 +13,7 @@ def compare(word1: str, word2: str) -> int:
             return 1
     
 
-        return 0
+    return 0
             
     
     
