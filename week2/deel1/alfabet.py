@@ -10,9 +10,9 @@ def compare(word1: str, word2: str) -> int:
     0
     """
     if len(word1) < len(word2):
-        min_length = word1
+        min_length = len(word1)
     else:
-        min_length = word2
+        min_length = len(word2)
         
     for i in range(min_length):
         lower_letter_word1 = word1[i].lower()
