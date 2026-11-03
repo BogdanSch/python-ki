@@ -6,6 +6,8 @@ def compare(word1: str, word2: str) -> int:
     1
     >>> compare("Daantje", "Daan")
     -1
+    >>> compare("Daantje", "Daan")
+    -1
     """
     min_length = min(len(word1), len(word2))
     for i in range(min_length):
