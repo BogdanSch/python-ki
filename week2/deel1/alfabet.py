@@ -2,7 +2,7 @@ def compare(word1: str, word2: str) -> int:
     """
     >>> compare("Taylor", "Lana")
     -1
-    >>> compare("Taylor", "Lana")
+    >>> compare("shark", "Lana")
     -1
     >>> compare("Taylor", "Lana")
     -1
