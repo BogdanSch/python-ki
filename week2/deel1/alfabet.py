@@ -6,8 +6,8 @@ def compare(word1: str, word2: str) -> int:
         return 0
     
     for i in range():
-        lower_word1 = word1[i].lower()
-        lower_word2 = word2[i].lower()
+        lower_letter_word1 = word1[i].lower()
+        lower_letter_word2 = word2[i].lower()
         
         if lower_word1 < lower_word2:
             return -1
