@@ -8,4 +8,5 @@ if __name__ == '__main__':
     time = input("Hoe laat is het? ")
     
     meal_type = meal(time)
+    
 Het is tijd voor ontbijt
