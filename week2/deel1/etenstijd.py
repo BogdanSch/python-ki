@@ -6,7 +6,7 @@ def meal(time: str) -> str | None:
     ontbijt
     >>> meal("22:12")
     None
-    >>> 
+    >>> 18:53
     """
     hour = int(time.split(":")[0])
     if 7 <=  hour <= 8:
