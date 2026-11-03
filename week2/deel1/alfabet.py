@@ -14,7 +14,7 @@ def compare(word1: str, word2: str) -> int:
     
     if len(word1) > len(word2):
         return -1
-    else:
+    else if:
         return 1
     
     
