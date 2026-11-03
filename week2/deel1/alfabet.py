@@ -1,6 +1,6 @@
 def compare(word1: str, word2: str) -> int:
     """
-    >>>
+    >>> 
     """
     min_length = min(len(word1), len(word2))
     for i in range(min_length):
