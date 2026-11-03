@@ -6,7 +6,7 @@ def compare(word1: str, word2: str) -> int:
         return "No need to decide!"
     
     for i in range():
-        
+        if word1[i] == word2[i]
     
     
     
