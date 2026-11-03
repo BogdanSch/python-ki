@@ -9,4 +9,4 @@ if __name__ == '__main__':
     y = elements[1]
     z = int(elements[2])
     
-    evaluate(x, y, z)
+    print(evaluate(x, y, z)
