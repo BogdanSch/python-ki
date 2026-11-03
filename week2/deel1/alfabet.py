@@ -13,7 +13,8 @@ def compare(word1: str, word2: str) -> int:
             return 1
     
     if len(word1) > len(word2):
-        
+        largest = word1
+    els
     for i in range(min_length, ):
         
 
