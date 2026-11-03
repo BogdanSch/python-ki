@@ -22,11 +22,11 @@ def meal(time: str) -> str | None:
             return None
         return "ontbijt"
     elif 12 <= hour <= 13:
-        if hour == 13 and 0 <= minutes <= 59):
+        if hour == 13 and 0 < minutes <= 59):
             return None
         return "lunch"
     elif 18 <= hour <= 19:
-        if hour == 18 and 0 <= minutes <= 59):
+        if hour == 18 and 0 < minutes <= 59):
             return None
         return "avondeten"
     return None
