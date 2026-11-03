@@ -38,5 +38,5 @@ if __name__ == '__main__':
     elif result == -1:
         print(word1 + " first")
     else:
-        print(word1 + " first")
+        print(word2 + " first")
         
