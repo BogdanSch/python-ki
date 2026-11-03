@@ -13,7 +13,7 @@ def compare(word1: str, word2: str) -> int:
             return 1
     
     if len(word1) > len(word2):
-        largest = word1
+        return = word1
     else:
         largest = word2
     
