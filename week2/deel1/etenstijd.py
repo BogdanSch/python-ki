@@ -3,11 +3,11 @@ def meal(time: str) -> str | None:
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     >>> meal("7:15")
-    "ontbijt"
+    'ontbijt'
     >>> meal("22:12")
     None
     >>> meal("18:53")
-    "avondeten"
+    'avondeten'
     """
     hour = int(time.split(":")[0])
     if 7 <=  hour <= 8:
