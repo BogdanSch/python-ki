@@ -2,7 +2,7 @@ def compare(word1: str, word2: str) -> int:
     """
     Vergelijkt beide woorden en geeft -1 als woord1 eerder in het alfabet voorkomt,
     1 als woord2 eerder in het alfabet voorkomt
-    en 0 als de woorden gelijk zijn dan is de uitkomst 0
+    en 0 als de woorden gelijk zijn dan is de uitkomst 0.
     >>> compare("Taylor", "Lana")
     -1
     >>> compare("shark", "sWoRd")
