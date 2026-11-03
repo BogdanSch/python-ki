@@ -5,7 +5,7 @@ def meal(time: str) -> str | None:
     """
 
 if __name__ == '__main__':
-    input("Hoe laat is het? ")
+    time = input("Hoe laat is het? ")
     
     meal_type = meal(time)
 Het is tijd voor ontbijt
