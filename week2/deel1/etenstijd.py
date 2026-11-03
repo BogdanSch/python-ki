@@ -9,6 +9,7 @@ def meal(time: str) -> str | None:
     >>> meal("18:53")
     'avondeten'
     """
+    time_components = time.split(":")[0]
     hour = int(time.split(":")[0])
     minutes = 
     if 7 <=  hour <= 8:
