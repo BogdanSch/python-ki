@@ -7,7 +7,8 @@ def compare(word1: str, word2: str) -> int:
     
     for i in range():
         if word1[i].lower() < word2[i].lower():
-            return 
+            return -1
+        elif 
             
             
     
