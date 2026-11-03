@@ -5,8 +5,8 @@ def meal(time: str) -> str | None:
     """
     hour = 
     if 7 <=  <= 8:
-    elif 18 <= <= 19:
     elif 
+    elif 18 <= <= 19:
 
 if __name__ == '__main__':
     time = input("Hoe laat is het? ")
