@@ -24,4 +24,4 @@ if __name__ == '__main__':
     y = elements[1]
     z = int(elements[2])
     
-    print(evaluate(x, y, z)
+    print(evaluate(x, y, z))
