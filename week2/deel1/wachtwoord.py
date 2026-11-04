@@ -11,7 +11,9 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     has_uppercase = False
-    has_lo
+    has_lowercase = False
+    
+    return has_uppercase and has
 
 def check_number(password: str) -> bool:
     """
