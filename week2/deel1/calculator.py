@@ -1,7 +1,9 @@
 def evaluate(x: int, y: str, z: int) -> float:
     """
     Bereken het resultaat van de operatie y toegepast op x en z.
-    >>> evaluate()
+    >>> evaluate(1, '+', 1)
+    2.0
+    >>> 
     """
     result = float(x)
     if y == "+":
