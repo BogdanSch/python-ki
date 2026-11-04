@@ -17,6 +17,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman Liau-formule.
     """
+    l = 
     return round(0.0588 * L - 0.296 * S - 15.8)
 
 if __name__ == '__main__':
