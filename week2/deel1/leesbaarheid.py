@@ -37,5 +37,6 @@ if __name__ == '__main__':
     
     if result < 1:
     elif result > 16:
+        print(f"")
     else:
         print(f"Grade {result}")
