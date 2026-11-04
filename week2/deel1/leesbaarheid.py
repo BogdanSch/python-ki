@@ -36,6 +36,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     >>> coleman_liau(10, 1, 20)
     -7
     >>> coleman_liau(30, 5, 50)
+    -11
     """
     l = 100 * letters / words
     s = 100 * sentences / words
