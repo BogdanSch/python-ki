@@ -10,7 +10,8 @@ def check_letter(password: str) -> bool:
     kleine letter bevat.
     Gebruik een loop om door password te lopen.
     """
-    has_upper
+    has_uppercase = False
+    has_lo
 
 def check_number(password: str) -> bool:
     """
