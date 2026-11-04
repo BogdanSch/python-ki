@@ -22,7 +22,7 @@ def calculate_grade(text: str) -> int:
             continue
         elif letter in ".;!?":
             sentences += 1
-        letter += 1
+        letters += 1
     return coleman_liau(words, sentences, letters)
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
