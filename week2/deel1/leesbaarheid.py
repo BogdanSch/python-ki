@@ -10,7 +10,7 @@ def calculate_grade(text: str) -> int:
     1
     >>> calculate_grade("There are more things in Heaven and Earth, "
     ...     "Horatio, than are dreamt of in your philosophy.")
-    
+    9
     """
     words = 0
     letters = 0
