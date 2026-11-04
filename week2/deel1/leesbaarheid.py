@@ -20,7 +20,6 @@ def calculate_grade(text: str) -> int:
     for letter in text:
         if letter.isalpha():
             letters += 1
-        
             if not is_word:
                 words += 1
                 is_word = True
