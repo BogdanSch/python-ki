@@ -42,7 +42,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     return round(0.0588 * l - 0.296 * s - 15.8)
 
 if __name__ == '__main__':
-    print(coleman_liau(10, 1, 20))
+    print(coleman_liau(30, 5, 50))
     text = input("Text: ")
     result = calculate_grade(text)
     
