@@ -6,7 +6,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(100, '-', 9)
     91.0
     >>> evaluate(4, '+', -6)
-    2.0
+    -24.0
     """
     result = float(x)
     if y == "+":
