@@ -25,7 +25,7 @@ def calculate_grade(text: str) -> int:
             is_word = False
             words += 1
             sentences += 1
-        elif letter.isalpha():
+        elif letter.isalpha() or letter == "'":
             is_word = True
             letters += 1
         else:
