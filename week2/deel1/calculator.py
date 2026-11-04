@@ -5,7 +5,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     result = float(x)
     if y == "+":
         result += z
-    
+    elif y == ""
 
 if __name__ == '__main__':
     elements = input("").split(" ")
