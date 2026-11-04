@@ -39,6 +39,11 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     return round(0.0588 * l - 0.296 * s - 15.8)
 
 if __name__ == '__main__':
+    print(calculate_grade(
+    "Congratulations! Today is your day. You're "
+    "off to Great Places! You're off and away!"
+))
+    
     text = input("Text: ")
     result = calculate_grade(text)
     
