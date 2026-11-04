@@ -20,7 +20,7 @@ def check_password(password: str) -> bool:
     """
     Controleer of aan alledrie de eisen is voldaan.
     """
-    return 
+    return check_length(password) and check
 
 if __name__ == '__main__':
     
