@@ -35,5 +35,6 @@ if __name__ == '__main__':
     text = input("Text: ")
     result = calculate_grade(text)
     
-    if result < 0
+    if result < 1:
+        
     print(f"Grade {}")
