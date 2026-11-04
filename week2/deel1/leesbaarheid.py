@@ -21,6 +21,7 @@ def calculate_grade(text: str) -> int:
             words += 1
         elif letter in ".;!?":
             sentences += 1
+        elif letter.isaloha()
         letters += 1
     return coleman_liau(words, sentences, letters)
 
