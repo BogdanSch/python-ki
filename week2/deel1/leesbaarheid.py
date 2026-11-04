@@ -36,7 +36,7 @@ if __name__ == '__main__':
     result = calculate_grade(text)
     
     if result < 1:
-        print(f"Grade 16+")
+        print(f"Below Grade 1")
     elif result > 16:
         print(f"Grade 16+")
     else:
