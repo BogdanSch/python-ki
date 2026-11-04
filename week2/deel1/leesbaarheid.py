@@ -24,7 +24,7 @@ def calculate_grade(text: str) -> int:
                 words += 1
                 is_word = True
         else:
-            if letter in ".!?":
+            if letter in ".;!?":
                 sentences += 1
             if letter != "'":
                 is_word = False
