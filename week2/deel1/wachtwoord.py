@@ -30,7 +30,9 @@ def check_number(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for letter in password:
-        if letter.isnumeric()
+        if letter.isnumeric():
+            return True
+    return False
 
 def check_password(password: str) -> bool:
     """
