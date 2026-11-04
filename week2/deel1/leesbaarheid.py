@@ -18,8 +18,7 @@ def calculate_grade(text: str) -> int:
     is_word = False
     
     for letter in text:
-        if letter in " ,":
-            
+        if letter in " ," and is_word:
             words += 1
         elif letter in ".;!?":
             is_word = False
