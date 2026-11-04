@@ -5,7 +5,12 @@ def evaluate(x: int, y: str, z: int) -> float:
     result = float(x)
     if y == "+":
         result += z
-    elif y == ""
+    elif y == "-":
+        result -= z
+    elif y == "*":
+        result *= z
+    elif y == "/":
+        result /= z
 
 if __name__ == '__main__':
     elements = input("").split(" ")
