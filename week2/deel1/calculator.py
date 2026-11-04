@@ -17,6 +17,8 @@ def evaluate(x: int, y: str, z: int) -> float:
         result *= z
     elif y == "/":
         result /= z
+    
+    return result
 
 if __name__ == '__main__':
     elements = input("").split(" ")
