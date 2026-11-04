@@ -14,7 +14,8 @@ def check_letter(password: str) -> bool:
     has_lowercase = False
     
     for letter in password:
-        if letter 
+        if letter.isupper():
+            
     
     return has_uppercase and has_lowercase
 
