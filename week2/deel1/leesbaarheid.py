@@ -19,7 +19,7 @@ def calculate_grade(text: str) -> int:
         if letter == " ":
         elif letter in ".;!?":
             sentences += 1
-        sentences 
+        letter +=
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
