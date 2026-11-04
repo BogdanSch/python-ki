@@ -18,21 +18,17 @@ def calculate_grade(text: str) -> int:
     is_word = False
     
     for letter in text:
-        
-        if letter in " ," and is_word:
-            is_word = False
-            words += 1
-        elif letter in ".;!?":
-            is_word = False
-            words += 1
-            sentences += 1
-        elif letter == "'":
-            continue
-        elif letter.isalpha():
-            is_word = True
-            letters += 1
-        else:
-            is_word = False
+        if letter.isalpha():
+    letters += 1
+
+    if not is_word:
+        words += 1
+        is_word = True
+else:
+    if letter in ".!?":
+        sentences += 1
+    if letter != "'":
+        is_word = False
     return coleman_liau(words, sentences, letters)
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
