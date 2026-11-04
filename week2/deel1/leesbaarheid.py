@@ -39,7 +39,7 @@ if __name__ == '__main__':
     
     if result < 1:
         print(f"Below Grade 1")
-    elif result > 16:
+    elif result >= 16:
         print(f"Grade 16+")
     else:
         print(f"Grade {result}")
