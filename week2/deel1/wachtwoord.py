@@ -23,5 +23,5 @@ def check_password(password: str) -> bool:
     return check_length(password) and check_letter(password) and check_number(password)
 
 if __name__ == '__main__':
-    input("")
+    input("Geef een wachtwoord: ")
     
