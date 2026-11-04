@@ -13,7 +13,10 @@ def check_letter(password: str) -> bool:
     has_uppercase = False
     has_lowercase = False
     
-    return has_uppercase and has
+    for letter in password:
+        if letter 
+    
+    return has_uppercase and has_lowercase
 
 def check_number(password: str) -> bool:
     """
