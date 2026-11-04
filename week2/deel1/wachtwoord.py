@@ -40,6 +40,12 @@ def check_number(password: str) -> bool:
     """
     Controleer of het wachtwoord een cijfer bevat.
     Gebruik een loop om door password te lopen.
+    >>> check_number("Hallo123")
+    True
+    >>> check_number("Hallo")
+    False
+    >>> check_number("123")
+    True
     """
     for letter in password:
         if letter.isnumeric():
