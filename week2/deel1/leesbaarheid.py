@@ -7,7 +7,7 @@ def calculate_grade(text: str) -> int:
     
     >>> calculate_grade("Congratulations! Today is your day. You're "
     ...     "off to Great Places! You're off and away!")
-    
+    1
     >>> calculate_grade("There are more things in Heaven and Earth, "
     ...     "Horatio, than are dreamt of in your philosophy.")
     
