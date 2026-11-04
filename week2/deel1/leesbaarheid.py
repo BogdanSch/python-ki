@@ -19,7 +19,6 @@ def calculate_grade(text: str) -> int:
     for letter in text:
         if letter in " ,":
             words += 1
-            continue
         elif letter in ".;!?":
             sentences += 1
         letters += 1
