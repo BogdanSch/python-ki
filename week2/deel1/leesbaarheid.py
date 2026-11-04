@@ -41,7 +41,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
 if __name__ == '__main__':
     print(calculate_grade(
     "There are more things in Heaven and Earth, "
-    ...     "Horatio, than are dreamt of in your philosophy."
+    "Horatio, than are dreamt of in your philosophy."
 ))
     
     text = input("Text: ")
