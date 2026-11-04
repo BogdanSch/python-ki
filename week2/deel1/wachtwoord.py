@@ -21,7 +21,7 @@ def check_letter(password: str) -> bool:
             
         if has_uppercase and has_lowercase:
             return True
-    
+
     return False
 
 def check_number(password: str) -> bool:
