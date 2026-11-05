@@ -1,4 +1,4 @@
-def yell(input: str) -> str:
+def yell(message: str) -> str:
     result = ""
     for letter in input:
         to_add = letter
