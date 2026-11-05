@@ -9,6 +9,7 @@ def check_input(dna: str) -> bool:
     >>> check_input("hello")
     False
     """
+    
     for letter in dna:
         if letter not in "agct":
             return False
