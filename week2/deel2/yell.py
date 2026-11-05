@@ -1,6 +1,6 @@
 def yell(message: str) -> str:
     """
-    >>> 
+    >>> yell()
     """
     result = ""
     for letter in message:
