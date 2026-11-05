@@ -28,6 +28,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     >>> transcribe_dna_to_rna("aaaa")
     'UUUU'
     """
+    lowercase_dna = dna.lower()
     rna = ""
     for letter in dna:
         if letter == "a":
