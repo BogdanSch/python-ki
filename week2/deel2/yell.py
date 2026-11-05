@@ -1,6 +1,6 @@
 def yell(message: str) -> str:
     result = ""
-    for letter in input:
+    for letter in message:
         to_add = letter
         if letter in "?!":
             to_add *= 2
