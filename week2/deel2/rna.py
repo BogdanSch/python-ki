@@ -16,7 +16,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     """
     rna = ""
-    
+    for letter 
 
 if __name__ == '__main__':
     dna = input("DNA: ").lower()
