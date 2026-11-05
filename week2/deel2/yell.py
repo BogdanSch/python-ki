@@ -2,7 +2,7 @@ def yell(message: str) -> str:
     """
     >>> yell("Can't shake it off of me!")
     'Can't shake it off of me!!'
-    >>> yell()
+    >>> yell("Who the hell put the muffins the freezer?")
     """
     result = ""
     for letter in message:
