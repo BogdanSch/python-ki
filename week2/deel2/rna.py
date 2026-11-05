@@ -13,4 +13,4 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
 
 if __name__ == '__main__':
-    dna = input("")
+    dna = input("DNA:")
