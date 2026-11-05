@@ -18,4 +18,4 @@ if __name__ == '__main__':
     if not check_input(dna):
         print("That is not a valid DNA string")
     else:
-        print(f"RNA: {transcribe_dna_to_rna(rna)}")
+        print(f"RNA: {transcribe_dna_to_rna(dna)}")
