@@ -1,4 +1,7 @@
 def yell(message: str) -> str:
+    """
+    >>> 
+    """
     result = ""
     for letter in message:
         to_add = letter
