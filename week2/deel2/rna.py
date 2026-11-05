@@ -20,9 +20,9 @@ def transcribe_dna_to_rna(dna: str) -> str:
         if letter == "a":
             rna += "U"
         elif letter == "g":
-            rna += "c"
-        if letter == "c":
-            rna += "U"
+            rna += "C"
+        elif letter == "c":
+            rna += "G"
 
 if __name__ == '__main__':
     dna = input("DNA: ").lower()
