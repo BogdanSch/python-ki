@@ -4,7 +4,7 @@ def check_input(dna: str) -> bool:
     Accepteert zowel hoofd- als kleine letters.
     >>> check_input("atgc")
     True
-    >>> check_input("atGcAgtAttGCA".lower())
+    >>> check_input("atgcagtattgCA".lower())
     True
     >>> check_input("hello")
     False
