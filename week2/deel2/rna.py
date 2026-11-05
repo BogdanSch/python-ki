@@ -30,7 +30,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
     lowercase_dna = dna.lower()
     rna = ""
-    for letter in dna:
+    for letter in lowercase_dna:
         if letter == "a":
             rna += "U"
         elif letter == "g":
