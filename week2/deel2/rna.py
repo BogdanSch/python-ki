@@ -18,5 +18,5 @@ if __name__ == '__main__':
     if not check_input(dna):
         print("That is not a valid DNA string")
     else:
-        
+        print(f"{}")
     rna = 
