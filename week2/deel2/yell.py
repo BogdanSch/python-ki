@@ -10,3 +10,4 @@ def yell(message: str) -> str:
         
 if __name__ == "__main__":
     message = input()
+    
