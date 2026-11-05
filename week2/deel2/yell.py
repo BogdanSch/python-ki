@@ -1,7 +1,8 @@
 def yell(message: str) -> str:
     """
     >>> yell("Can't shake it off of me!")
-    
+    'Can't shake it off of me!!'
+    >>> yell()
     """
     result = ""
     for letter in message:
