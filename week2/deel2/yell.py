@@ -3,6 +3,6 @@ def yell(input: str) -> str:
     for letter in input:
         to_add = letter
         if letter in "?!":
-            
+            to_add *= 2
         
         result += to_add
