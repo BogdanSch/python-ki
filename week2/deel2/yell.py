@@ -5,7 +5,7 @@ def yell(message: str) -> str:
     >>> yell("Who the hell put the muffins the freezer?")
     Who the hell put the muffins the freezer??
     >>> yell("Cringe? CRINGE!")
-    Cringe?? CRINGE!!
+    'Cringe?? CRINGE!!
     """
     result = ""
     for letter in message:
