@@ -25,6 +25,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
             rna += "G"
         elif letter == "t":
             rna += "A"
+    return rna
 
 if __name__ == '__main__':
     dna = input("DNA: ").lower()
