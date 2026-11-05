@@ -15,7 +15,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
 
 if __name__ == '__main__':
-    dna = input("DNA: ")
+    dna = input("DNA: ").lower()
     
     if not check_input(dna):
         print("That is not a valid DNA string")
