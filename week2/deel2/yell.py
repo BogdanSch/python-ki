@@ -8,4 +8,4 @@ def yell(input: str) -> str:
         result += to_add
         
 if __name__ == "__main__":
-    
+    input
