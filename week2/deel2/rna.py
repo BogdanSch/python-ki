@@ -19,6 +19,10 @@ def transcribe_dna_to_rna(dna: str) -> str:
     for letter in dna:
         if letter == "a":
             rna += "U"
+        if letter == "a":
+            rna += "U"
+        if letter == "a":
+            rna += "U"
 
 if __name__ == '__main__':
     dna = input("DNA: ").lower()
