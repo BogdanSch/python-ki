@@ -9,7 +9,7 @@ def check_input(dna: str) -> bool:
     >>> check_input("hello")
     False
     """
-    lowercase_rna = rna.lower()
+    lowercase_dna = dna.lower()
     for letter in lowercase_rna:
         if letter not in "agct":
             return False
