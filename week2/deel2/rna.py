@@ -15,6 +15,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     Ga ervan uit dat een valide string wordt gegeven (dus geen
     check aanroepen).
     """
+    
 
 if __name__ == '__main__':
     dna = input("DNA: ").lower()
