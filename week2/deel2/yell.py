@@ -6,6 +6,7 @@ def yell(message: str) -> str:
             to_add *= 2
         
         result += to_add
+    return result
         
 if __name__ == "__main__":
     message
