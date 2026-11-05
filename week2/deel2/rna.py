@@ -23,6 +23,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
             rna += "C"
         elif letter == "c":
             rna += "G"
+        elif letter == "c":
+            rna += "G"
 
 if __name__ == '__main__':
     dna = input("DNA: ").lower()
