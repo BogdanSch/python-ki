@@ -13,6 +13,7 @@ def convert(camel_case_text: str) -> str:
             new_name += f"_{camel_case_text[i].lower()}"
         else:
             new_name += camel_case_text[i]
+    return new_name
     
 if __name__ == "__main__":
     camel_case_text = input("camelCase: ")
