@@ -11,7 +11,7 @@ def convert(camel_case_text: str) -> str:
     for i in range(1, len(camel_case_text)):
         if camel_case_text[i].isupper():
         else:
-            
+            new_name += camel_case_text[i]
     
 if __name__ == "__main__":
     camel_case_text = input("camelCase: ")
