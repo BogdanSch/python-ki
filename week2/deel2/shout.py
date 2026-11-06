@@ -8,6 +8,7 @@ def shout(text: str) -> str:
     new_text = ""
     for char in text:
         new_text += char.upper()
+    return new_text
 
 if __name__ == "__main__":
     # 
