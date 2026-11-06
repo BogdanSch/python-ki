@@ -7,7 +7,8 @@ def convert(camel_case_text: str) -> str:
     >>> convert('readFromFile')
     'read_from_file'
     """
-    new_name = 
+    new_name = camel_case_text[0]
+    for i in range()
     
 if __name__ == "__main__":
     camel_case_text = input("camelCase: ")
