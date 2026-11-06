@@ -4,7 +4,8 @@ def convert(camel_case_text: str) -> str:
     'check'
     >>> convert('convertInput')
     'convert_input'
-    >>> convert('')
+    >>> convert('readFromFile')
+    ''
     """
     
 if __name__ == "__main__":
