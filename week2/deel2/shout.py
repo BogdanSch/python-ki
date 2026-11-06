@@ -5,7 +5,7 @@ def shout(text: str) -> str:
     >>> shout('Cringe!')
     'CRINGE!'
     >>> shout('')
-    
+    ''
     """
     new_text = ""
     for char in text:
