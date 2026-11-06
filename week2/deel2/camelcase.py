@@ -4,5 +4,5 @@ def convert(camel_case_text: str) -> str:
     """
     
 if __name__ == "__main__":
-    came_case_text = input("camelCase: ")
-    print(f"snake_case: {convert(came_case_text)}")
+    camel_case_text = input("camelCase: ")
+    print(f"snake_case: {convert(camel_case_text)}")
