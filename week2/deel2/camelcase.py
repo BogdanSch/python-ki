@@ -10,6 +10,7 @@ def convert(camel_case_text: str) -> str:
     new_name = camel_case_text[0]
     for i in range(1, len(camel_case_text)):
         if camel_case_text[i].isupper():
+        else:
             
     
 if __name__ == "__main__":
