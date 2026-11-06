@@ -13,5 +13,5 @@ def shout(text: str) -> str:
 if __name__ == "__main__":
     # 
     text = input()
-    print(shout)
+    print(shout(text))
     
