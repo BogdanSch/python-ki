@@ -13,7 +13,6 @@ def shout(text: str) -> str:
     return new_text
 
 if __name__ == "__main__":
-    # 
     text = input()
     print(shout(text))
     
