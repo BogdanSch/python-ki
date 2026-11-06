@@ -7,7 +7,7 @@ def remove_vowels(s: str) -> str:
     """
     new_string = ""
     for char in s:
-        if not in "aeiouAEIOU":
+        if char not in "aeiouAEIOU":
             new_string += char
     return new_string
     
