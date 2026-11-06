@@ -1,4 +1,4 @@
-def convert(came_case_text: str) -> str:
+def convert(camel_case_text: str) -> str:
     """
     
     """
