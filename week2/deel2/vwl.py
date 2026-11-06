@@ -1,6 +1,6 @@
 def remove_vowels(s: str) -> str:
     """
-    >>> verberg_klinkers("python")
+    >>> verberg_klinkers("Python")
     'pyth*n'
     >>> verberg_klinkers("Amsterdam")
     '*mst*rd*m'
