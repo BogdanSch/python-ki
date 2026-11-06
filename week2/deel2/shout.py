@@ -4,6 +4,8 @@ def shout(text: str) -> str:
     'WHO THE HELL PUT THE MUFFINS THE FREEZER?'
     >>> shout('Cringe!')
     'CRINGE!'
+    >>> shout('')
+    
     """
     new_text = ""
     for char in text:
