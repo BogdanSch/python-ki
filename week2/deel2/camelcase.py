@@ -6,8 +6,8 @@ def convert(camel_case_text: str) -> str:
     'convert_input'
     >>> convert('readFromFile')
     'read_from_file'
-        >>> convert('readFromFile')
-    'read_from_file'
+    >>> convert('')
+    ''
     """
     if len(camel_case_text) == 0:
         return ""
