@@ -1,6 +1,6 @@
 def convert(camel_case_text: str) -> str:
     """
-    >>> 
+    >>> convert()
     """
     
 if __name__ == "__main__":
