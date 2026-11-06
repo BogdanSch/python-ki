@@ -2,7 +2,9 @@ def convert(camel_case_text: str) -> str:
     """
     >>> convert('check')
     'check'
-    >>> convert('')
+    >>> convert('convertInput')
+    'convert_input'
+    >>> convert(')
     """
     
 if __name__ == "__main__":
