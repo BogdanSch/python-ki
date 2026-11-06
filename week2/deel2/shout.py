@@ -1,5 +1,5 @@
 def shout(text: str) -> str:
-    
+    new_text = ""
 
 if __name__ == "__main__":
     # Who the hell put the muffins the freezer?
