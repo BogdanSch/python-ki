@@ -2,7 +2,7 @@ def compact(lst: list[object]) -> list[object]:
     """
     >>> compact([1, '', True, 'abcd', 5])
     [1, True, 'abcd', 5]
-    >>> compact([False])
+    >>> compact([False, ''])
     []
     >>> compact([])
     []
