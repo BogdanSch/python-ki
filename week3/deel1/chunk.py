@@ -1,6 +1,6 @@
 def chunk(lst: list[int], n: int) -> list[list[int]]:
     """
-    >>> 
+    >>> chunk()
     """
     new_lst = []
     for i in range(0, len(lst), n):
