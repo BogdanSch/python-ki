@@ -9,8 +9,3 @@ def rotate(lst: list[object]) -> None:
     for i in range(1, len(lst)):
         rotated_lst.append(lst[i])
     rotated_lst.append(lst[0])
-
-if __name__ == "__main__":
-    
-
-    
