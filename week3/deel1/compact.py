@@ -6,6 +6,8 @@ def compact(lst: list[object]) -> list[object]:
     []
     >>> compact([])
     []
+    >>> compact([[]])
+    []
     """
     new_lst = []
     for item in lst: 
