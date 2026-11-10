@@ -10,4 +10,5 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
         new_list.append(lst2[i])
     
     if keep and len(lst1) > min_length:
-    elif keep and len(lst1) > min_length:
+        for i in range()
+    elif keep and len(lst2) > min_length:
