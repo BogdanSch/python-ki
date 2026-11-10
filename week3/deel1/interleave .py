@@ -1,2 +1,2 @@
-def interleave(lst1: list, lst2: list, keep: bool) -> list:
+def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[object]:
     
