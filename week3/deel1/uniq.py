@@ -2,4 +2,6 @@ def uniq(lst: list[object]) -> list[object]:
     """
     
     """
-    for 
+    unique_lst = []
+    
+    return unique_lst
