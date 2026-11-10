@@ -8,7 +8,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     new_lst = []
     sub_lst = []
     for i in range(len(lst) + 1):
-        if 
+        if i == 
         if len(sub_lst) == n:
             new_lst.append(sub_lst)
             sub_lst = []
