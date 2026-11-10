@@ -12,6 +12,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
             new_lst.append(sub_lst)
             sub_lst = []
         sub_lst.append(lst[i])
-            
+    new_lst.append()
+    
     return new_lst
     
