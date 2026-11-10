@@ -1,6 +1,6 @@
 def uniq(lst: list[object]) -> list[object]:
     """
-    >>> uniq()
+    >>> uniq([])
     """
     unique_lst = []
     for element in lst:
