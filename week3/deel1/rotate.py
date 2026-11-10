@@ -11,5 +11,6 @@ def rotate(lst: list[object]) -> None:
     rotated_lst.append(lst[0])
 
 if __name__ == "__main__":
+    
 
     
