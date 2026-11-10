@@ -2,4 +2,4 @@ def compact(lst: list[object]) -> list[object]:
     """
     
     """
-    return [item for item in lst if item != ]
+    return [item for item in lst if item != False and item !=  ]
