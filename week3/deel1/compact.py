@@ -9,4 +9,5 @@ def compact(lst: list[object]) -> list[object]:
     """
     new_lst = []
     
+    return new_lst
     return [item for item in lst if item != False and item !=  0 and item != '']
