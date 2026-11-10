@@ -6,6 +6,6 @@ def rotate(lst: list[object]) -> None:
     [2, 3, 1]
     """
     first = lst[0]
-    for i in range(1, len(lst)):
+    for i in range(len(lst)):
         rotated_lst.append(lst[i])
     rotated_lst.append(lst[0])
