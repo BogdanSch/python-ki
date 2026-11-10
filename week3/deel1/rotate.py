@@ -5,7 +5,7 @@ def rotate(lst: list[object]) -> None:
     >>> n1
     [2, 3, 1]
     """
-    rotated_lst = []
+    first = lst[0]
     for i in range(1, len(lst)):
         rotated_lst.append(lst[i])
     rotated_lst.append(lst[0])
