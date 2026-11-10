@@ -6,9 +6,9 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     []
     """
     new_lst = []
+    sub_lst = []
     for i in range(len(lst)):
-        sub_lst = []
-        
+        if len
         new_lst.append(sub_lst)
     return new_lst
     
