@@ -1,1 +1,2 @@
-def compact(lst: list[object]) -> 
+def compact(lst: list[object]) -> list[object]:
+    
