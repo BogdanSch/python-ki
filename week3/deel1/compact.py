@@ -1,0 +1,1 @@
+def compact(lst: list[object]) -> 
