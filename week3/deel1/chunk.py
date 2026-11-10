@@ -11,7 +11,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
         if len(sub_lst) == n:
             new_lst.append(sub_lst)
         else:
-            sub_lst.append()
+            sub_lst.append(lst[i])
             
     return new_lst
     
