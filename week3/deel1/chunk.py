@@ -5,6 +5,6 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     """
     new_lst = []
     for i in range(0, len(lst), n):
-        new_lst.append(lst[i:(i + n + 1)])
+        new_lst.append(lst[i:(i + n)])
     return new_lst
     
