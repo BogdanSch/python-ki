@@ -10,6 +10,5 @@ def compact(lst: list[object]) -> list[object]:
     new_lst = []
     for item in lst: 
         if item != False and item !=  0 and item != '':
-            
+            new_lst.append(item)
     return new_lst
-    return [item ]
