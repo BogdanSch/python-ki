@@ -34,4 +34,5 @@ def print_banner(lst: list[string]) -> None:
     
 def string_to_list(text: str) -> list[str]:
     words: list[str] = []
+    current_word = ""
     for 
