@@ -33,4 +33,5 @@ def print_banner(lst: list[string]) -> None:
     print("#" * hash_length)
     
 def string_to_list(text: str) -> list[str]:
+    
     for 
