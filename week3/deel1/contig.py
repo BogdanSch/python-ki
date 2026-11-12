@@ -5,5 +5,5 @@ def contig(lst: list[int]) -> list[list[int]]:
     new_list: list[list[int]] = []
     sub_list: list[int] = [lst[0]]
     for i in range(1, len(lst)):
-        
+        new_list.append(sub_list)
         
