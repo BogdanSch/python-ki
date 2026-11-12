@@ -24,4 +24,5 @@ def print_banner(lst: list[string]):
     Vita
     ##########
     """
+    longest_word = longest_word_from_list(lst)
     
