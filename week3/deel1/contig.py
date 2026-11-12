@@ -1,6 +1,7 @@
 def contig(lst: list[int]) -> list[list[int]]:
     """
-    >>> contig()
+    >>> contig([5, 6, 7, 8])
+    >>> 
     """
     new_list: list[list[int]] = []
     sub_list: list[int] = [lst[0]]
