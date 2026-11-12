@@ -46,4 +46,4 @@ def string_to_list(text: str) -> list[str]:
             
 if __name__ == "__main__":
     message = input("Enter your message: ")
-    
+    string_to_list(message)
