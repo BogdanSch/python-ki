@@ -45,4 +45,4 @@ def string_to_list(text: str) -> list[str]:
             current_word += text[i]
             
 if __name__ == "__main__":
-    message = input()
+    message = input("Enter your message: ")
