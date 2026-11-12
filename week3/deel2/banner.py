@@ -14,5 +14,6 @@ def longest_word_from_list(lst: list[string]) -> str:
     return longest_word
     
 def print_banner(lst: list[string]):
-    """"""
+    """
+    """
     
