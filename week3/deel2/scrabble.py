@@ -19,6 +19,8 @@ def compute_letter_score(letter: str) -> int:
     Bereken en return de score voor één enkele letter.
     >>> compute_letter_score('a')
     1
+    >>> compute_letter_score('z')
+    1
     >>> compute_letter_score('')
     0
     """
