@@ -1,9 +1,9 @@
 def longest_word_from_list(lst: list[str]) -> str:
     """
-    >>> longest_word_from_list()
-    
-    >>> longest_word_from_list([])
-    
+    >>> longest_word_from_list(["kat", "hond", "olifant"])
+    'olifant'
+    >>> longest_word_from_list(["abc", "de"])
+    'abc'
     """
     longest_word = lst[0]
     
