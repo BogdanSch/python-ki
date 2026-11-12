@@ -39,7 +39,8 @@ if __name__ == '__main__':
     player1_score = compute_score(player1_word)
     player2_score = compute_score(player2_word)
     
-    if 
-    print("Speler 1 wint!" if player1_score > player2_score elif "Gelijkspel!" else "Speler 2 wint!")
+    if player1_score > player2_score:
+        print()
+    print("Speler 1 wint!" if  elif "Gelijkspel!" else "Speler 2 wint!")
     
     
