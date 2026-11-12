@@ -11,6 +11,9 @@ def compute_letter_score(letter: str) -> int:
     Bereken en return de score voor één enkele letter.
     """
     ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+    if letter not in ALPHABET:
+        return 0
+        
     
 
 if __name__ == '__main__':
