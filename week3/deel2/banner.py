@@ -44,3 +44,5 @@ def string_to_list(text: str) -> list[str]:
         else:
             current_word += text[i]
             
+if __name__ == "__main__":
+    
