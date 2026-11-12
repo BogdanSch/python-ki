@@ -15,7 +15,7 @@ def compute_letter_score(letter: str) -> int:
     if lowercase_letter not in ALPHABET:
         return 0
     
-    for i in ALPHABET:
+    for i in range(len(ALPHABET)):
         if alphabet_letter == lowercase_letter:
             return 
     return 0
