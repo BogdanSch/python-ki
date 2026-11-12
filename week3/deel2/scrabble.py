@@ -7,7 +7,7 @@ def compute_score(word: str) -> int:
     >>> compute_score("Hallo")
     8
     >>> compute_score("dog")
-    
+    2 + 1 + 
     """
     total_score = 0
     for letter in word:
