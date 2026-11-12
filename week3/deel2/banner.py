@@ -28,3 +28,6 @@ def print_banner(lst: list[string]):
     hash_length = len(longest_word)
     
     print("#" * hash_length)
+    for word in lst:
+        print(word)
+    print("#" * hash_length)
