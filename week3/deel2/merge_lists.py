@@ -4,5 +4,6 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
     [1, 2, 4, 5, 5, 6]
     """
     result = []
-    
+    i = 0
+    j = 0
     
