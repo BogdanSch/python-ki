@@ -20,7 +20,7 @@ def compute_letter_score(letter: str) -> int:
     >>> compute_letter_score('a')
     1
     >>> compute_letter_score('z')
-    1
+    10
     >>> compute_letter_score('')
     0
     """
