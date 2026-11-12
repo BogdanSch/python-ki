@@ -6,7 +6,8 @@ def contig(lst: list[int]) -> list[list[int]]:
     [[1], [3], [5]]
     >>> contig([])
     []
-    contig([1])
+    >>> contig([1])
+    [[1]]
     """
     if len(lst) < 1:
         return []
