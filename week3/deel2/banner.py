@@ -33,6 +33,9 @@ def print_banner(lst: list[string]) -> None:
     print("#" * hash_length)
     
 def string_to_list(text: str) -> list[str]:
+    """
+    >>> 
+    """
     words: list[str] = []
     current_word = ""
     for i in range(len(text)):
