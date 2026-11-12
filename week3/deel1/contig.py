@@ -1,4 +1,4 @@
-def contig() -> :
+def contig(lst: list[int]) -> :
     """
     >>> contig()
     """
