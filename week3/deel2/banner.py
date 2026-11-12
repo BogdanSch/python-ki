@@ -47,4 +47,4 @@ def string_to_list(text: str) -> list[str]:
 if __name__ == "__main__":
     message = input("Enter your message: ")
     words = string_to_list(message)
-    
+    print_banner(words)
