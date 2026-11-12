@@ -5,6 +5,7 @@ def contig(lst: list[int]) -> list[list[int]]:
     >>> contig([1, 3, 5])
     [[1], [3], [5]]
     """
+    if 
     new_list: list[list[int]] = []
     sub_list: list[int] = [lst[0]]
     
