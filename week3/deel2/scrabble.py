@@ -44,7 +44,6 @@ if __name__ == '__main__':
     elif player1_score == player2_score:
         print("Gelijkspel!")
     else:
-        
-    print( if  elif  else "Speler 2 wint!")
+        print("Speler 2 wint!")
     
     
