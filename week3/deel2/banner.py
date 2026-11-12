@@ -18,10 +18,10 @@ def print_banner(lst: list[string]):
     >>> lst = ["Margherita", "Tutta", "la", "Vita"]
     >>> print_banner(lst)
     ##########
-Margherita
-Tutta
-la
-Vita
-##########
+    Margherita
+    Tutta
+    la
+    Vita
+    ##########
     """
     
