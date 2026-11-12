@@ -47,6 +47,7 @@ def string_to_list(text: str) -> list[str]:
             current_word = ""
         else:
             current_word += text[i]
+            
     if len(current_word) != 0:
             words.append(current_word)
     
