@@ -1,4 +1,4 @@
 def contig() -> :
     """
-    >>> 
+    >>> contig()
     """
