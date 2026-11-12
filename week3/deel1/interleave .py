@@ -2,7 +2,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
     """
     >>> interleave([], [], True)
     []
-    >>>
+    >>> interleave([1, 3, 5], [2, 4, 6], True)
     """
     new_list = []
     min_length = min(len(lst1), lst2)
