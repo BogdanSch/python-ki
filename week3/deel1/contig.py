@@ -4,7 +4,9 @@ def contig(lst: list[int]) -> list[list[int]]:
     [[5, 6, 7, 8]]
     >>> contig([1, 3, 5])
     [[1], [3], [5]]
-    >>> 
+    >>> contig([])
+    []
+    contig([1, 3, 5])
     """
     if len(lst) < 1:
         return []
