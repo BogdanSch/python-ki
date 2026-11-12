@@ -39,4 +39,4 @@ def string_to_list(text: str) -> list[str]:
         if text[i] == " ":
             words.append(current_word)
         else:
-            
+            current_word += text[i]
