@@ -40,3 +40,4 @@ def string_to_list(text: str) -> list[str]:
             words.append(current_word)
         else:
             current_word += text[i]
+            
