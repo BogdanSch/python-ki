@@ -12,4 +12,5 @@ def compute_letter_score(letter: str) -> int:
     """
 
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    player1_word = input()
+    player1_word = input()
