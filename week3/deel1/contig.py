@@ -14,5 +14,5 @@ def contig(lst: list[int]) -> list[list[int]]:
         else:
             new_list.append(sub_list)
             sub_list = [lst[i]]
-    
+    if len(sub_list)
     return new_list
