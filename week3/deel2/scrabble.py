@@ -14,5 +14,5 @@ def compute_letter_score(letter: str) -> int:
     
 
 if __name__ == '__main__':
-    player1_word = input()
-    player2_word = input()
+    player1_word = input("Speler 1: ")
+    player2_word = input("")
