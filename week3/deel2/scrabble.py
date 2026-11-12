@@ -13,7 +13,7 @@ def compute_letter_score(letter: str) -> int:
     ALPHABET = "abcdefghijklmnopqrstuvwxyz"
     if letter not in ALPHABET:
         return 0
-        
+    
     
 
 if __name__ == '__main__':
