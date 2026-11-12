@@ -50,7 +50,7 @@ def string_to_list(text: str) -> list[str]:
             
     if len(current_word) != 0:
             words.append(current_word)
-    
+    return words
             
 if __name__ == "__main__":
     message = input("Enter your message: ")
