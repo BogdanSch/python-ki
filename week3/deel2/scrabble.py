@@ -36,5 +36,6 @@ if __name__ == '__main__':
     player1_word = input("Speler 1: ")
     player2_word = input("Speler 2: ")
     
-    player1_score = 
+    player1_score = compute_score(player1_word)
+    
     
