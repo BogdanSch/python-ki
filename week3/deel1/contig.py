@@ -7,5 +7,6 @@ def contig(lst: list[int]) -> list[list[int]]:
     for i in range(1, len(lst)):
         if lst[i] - 1 == lst[i - 1]:
             sub_list.append(lst[i])
-        new_list.append(sub_list)
-        
+        else:
+            new_list.append(sub_list)
+    return new_list
