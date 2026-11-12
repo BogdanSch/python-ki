@@ -17,7 +17,7 @@ def compute_letter_score(letter: str) -> int:
     
     for i in range(len(ALPHABET)):
         if ALPHABET[i] == lowercase_letter:
-            return 
+            return POINTS[i]
     return 0
     
 
