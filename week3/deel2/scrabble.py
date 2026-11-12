@@ -19,8 +19,8 @@ def compute_letter_score(letter: str) -> int:
         if ALPHABET[i] == lowercase_letter:
             return POINTS[i]
     return 0
-    
 
 if __name__ == '__main__':
     player1_word = input("Speler 1: ")
     player2_word = input("Speler 2: ")
+    
