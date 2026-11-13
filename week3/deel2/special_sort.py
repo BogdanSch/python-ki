@@ -3,9 +3,9 @@ def special_sort(l: list[int]) -> list[int]:
     Sorteert de lijst `l` door deze aan te passen.
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
-    >>> selection_sort([64, 25, 12, 22, 11])
+    >>> special_sort([64, 25, 12, 22, 11])
     [11, 12, 22, 25, 64]
-    >>> selection_sort([])
+    >>> special_sort([])
     []
     >>> selection_sort([0])
     [0]
