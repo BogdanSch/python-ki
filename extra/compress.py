@@ -5,6 +5,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
     """
     result = []
     
+    i = 0
     while i < len(lst):
         entry = [lst[i], 1]
         
