@@ -1,1 +1,1 @@
-def compress(lst: list[int]) -> 
+def compress(lst: list[int]) -> list[]
