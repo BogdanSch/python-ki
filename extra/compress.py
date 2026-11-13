@@ -36,7 +36,7 @@ def decompress(pairs: list[list[int, int]]) -> list[int]:
     return result
     
 if __name__ == '__main__':
-    NUMBER_EX
+    NUMBER_EXPERIMENTS = 1000
     total_compression_ratio = 0
     
     for i in range(1000):
