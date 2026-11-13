@@ -8,5 +8,5 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         while lst[j] == lst[i]:
             entry[1] += 1
         
-        result.append()
+        result.append(entry)
         i = j
