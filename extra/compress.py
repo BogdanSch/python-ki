@@ -22,7 +22,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
     return result
     
 def decompress(pairs list[list[int, int]]) -> list[int]:
-        """
+    """
     >>> compress([1, 1, 1, 1])
     [[1, 4]]
     >>> compress([1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 2])
