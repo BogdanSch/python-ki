@@ -45,4 +45,4 @@ if __name__ == '__main__':
         
         total_compression_ratio += len(test_list) / (2 * len(compressed_list))
     
-    print(f"De gemiddelde compressie-ratio voor alle 1000 experimenten: {total_compression_ratio / 1000}")    
+    print(f"De gemiddelde compressie-ratio voor alle {NUMBER_EXPERIMENTS} experimenten: {total_compression_ratio / 1000}")    
