@@ -1,4 +1,4 @@
-def compress(lst: list[int]) -> list[tuple[int, int]]:
+def compress(lst: list[int]) -> list[list[int, int]]:
     result = []
     for i in range(len(lst)):
         for j in range(i + 1, len(lst)):
