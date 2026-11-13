@@ -11,6 +11,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         j = i + 1
         while lst[j] == lst[i]:
             entry[1] += 1
+            j += 1
         
         i = j
         result.append(entry)
