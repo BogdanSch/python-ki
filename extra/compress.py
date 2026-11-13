@@ -1,4 +1,7 @@
 def compress(lst: list[int]) -> list[list[int, int]]:
+    """
+    
+    """
     result = []
     
     while i < len(lst):
