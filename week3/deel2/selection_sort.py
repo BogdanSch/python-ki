@@ -4,7 +4,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     >>> selection_sort([64, 25, 12, 22, 11])
-    []
+    [11, 12, 22, 25, 64]
     """
     for i in range(len(l)):
         min_element_index: int = i
