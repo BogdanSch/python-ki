@@ -36,5 +36,6 @@ def decompress(pairs: list[list[int, int]]) -> list[int]:
     return result
     
 if __name__ == '__main__':
-    for i in range()
+    for i in range(1000):
+        
     
