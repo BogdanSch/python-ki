@@ -7,6 +7,6 @@ def selection_sort(l: list[int]) -> list[int]:
     for i in range(len(l)):
         min_element: int = l[i]
         for j in range(i, len(l)):
-            if 
+            if l
     
     return l
