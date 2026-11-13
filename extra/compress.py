@@ -31,7 +31,7 @@ def decompress(pairs list[list[int, int]]) -> list[int]:
     result: list[int] = []
     
     for i in range(len(pairs)):
-        result += [pairs[i][0]]] * pairs[i][1]
+        result += [pairs[i][0]] * pairs[i][1]
         
     return result
     
