@@ -5,6 +5,6 @@ def special_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     for i in range(len(l)):
-        for j in range(i + 1, len(l)):
+        for j in range(i, len(l) - 1):
             if l[i] < 
             
