@@ -36,7 +36,7 @@ def decompress(pairs: list[list[int, int]]) -> list[int]:
     return result
     
 if __name__ == '__main__':
-    total_compress_ratio = 0
+    total_compression_ratio = 0
     
     for i in range(1000):
         test_list = [random.randint(0, 9) for _ in range(1000)]
