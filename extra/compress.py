@@ -2,7 +2,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
     """
     >>> compress([1, 1, 1, 1])
     [[1, 4]]
-    >>> compress([1, 1, 1, 1])
+    >>> compress([1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 2])
     [[1, 4]]
     """
     result = []
