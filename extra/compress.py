@@ -4,7 +4,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         entry = [lst[i]]
         
         int j = i + 1
-        while 
+        while lst[j] != 
         for j in range(i + 1, len(lst)):
             if lst[i] == lst[j]:
                 result.
