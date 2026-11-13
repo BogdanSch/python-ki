@@ -37,5 +37,5 @@ def decompress(pairs: list[list[int, int]]) -> list[int]:
     
 if __name__ == '__main__':
     for i in range(1000):
-        test_list = [random.]
+        test_list = [random.randint(3, 9)]
     
