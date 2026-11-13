@@ -39,7 +39,7 @@ if __name__ == '__main__':
     NUMBER_EXPERIMENTS = 1000
     total_compression_ratio = 0
     
-    for i in range(1000):
+    for i in range(NUMBER_EXPERIMENTS):
         test_list = [random.randint(0, 9) for _ in range(1000)]
         compressed_list = compress(test_list)
         
