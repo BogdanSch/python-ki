@@ -41,4 +41,5 @@ if __name__ == '__main__':
     for i in range(1000):
         test_list = [random.randint(0, 9) for _ in range(1000)]
         compressed_list = compress(test_list)
+        
     
