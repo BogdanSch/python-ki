@@ -21,7 +21,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         
     return result
     
-def decompress(pairs list[list[int, int]]) -> list[int]:
+def decompress(pairs: list[list[int, int]]) -> list[int]:
     """
     >>> compress([[1, 4]])
     [1, 1, 1, 1]
