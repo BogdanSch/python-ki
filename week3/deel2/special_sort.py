@@ -6,5 +6,5 @@ def special_sort(l: list[int]) -> list[int]:
     """
     for i in range(len(l)):
         for j in range(i, len(l) - 1):
-            if l[i] < 
+            if l[i] < l[j]
             
