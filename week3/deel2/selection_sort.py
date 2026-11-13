@@ -7,7 +7,8 @@ def selection_sort(l: list[int]) -> list[int]:
     [11, 12, 22, 25, 64]
     >>> selection_sort([])
     []
-    >>> 
+    >>> selection_sort([0])
+    [0]
     """
     for i in range(len(l)):
         min_element_index: int = i
