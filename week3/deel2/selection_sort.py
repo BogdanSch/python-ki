@@ -13,12 +13,12 @@ def selection_sort(l: list[int]) -> list[int]:
     [-99, 0, 1, 2, 3]
     """
     for i in range(len(l)):
-        min_element_index: int = i
+        min_index: int = i
         for j in range(i, len(l)):
-            if l[j] < l[min_element_index]:
-                min_element_index = j
+            if l[j] < l[min_index]:
+                min_index = j
         
-        if min_element_index != i:
-            l[i], l[min_element_index] = l[min_element_index], l[i]
+        if min_index != i:
+            l[i], l[min_index] = l[min_index], l[i]
     
     return l
