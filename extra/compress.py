@@ -1,8 +1,8 @@
 def compress(lst: list[int]) -> list[list[int, int]]:
     result = []
     
-    while i < 
-    for i in range(len(lst)):
+    while i < len(lst):
+    for i in range():
         entry = [lst[i], 1]
         
         int j = i + 1
