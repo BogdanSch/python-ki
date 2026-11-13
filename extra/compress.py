@@ -10,7 +10,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         entry = [lst[i], 1]
         
         j = i + 1
-        while lst[j] == lst[i]:
+        while lst[j] == lst[i] and j < len(lst):
             entry[1] += 1
             j += 1
         
