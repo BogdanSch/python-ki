@@ -10,6 +10,7 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[j] < l[min_element_index]:
                 min_element_index = j
         
+        if mi
         l[i] = min_element
     
     return l
