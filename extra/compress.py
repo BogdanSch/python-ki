@@ -1,6 +1,6 @@
 def compress(lst: list[int]) -> list[list[int, int]]:
     """
-    >>> 
+    >>> compress()
     """
     result = []
     
