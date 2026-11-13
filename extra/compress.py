@@ -21,4 +21,4 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         
     return result
     
-def 
+def decompress()
