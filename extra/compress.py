@@ -22,8 +22,16 @@ def compress(lst: list[int]) -> list[list[int, int]]:
     return result
     
 def decompress(pairs list[list[int, int]]) -> list[int]:
+        """
+    >>> compress([1, 1, 1, 1])
+    [[1, 4]]
+    >>> compress([1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 2])
+    [[1, 4], [0, 5], [1, 1], [2, 1]]
+    """
     result = []
     
     for i in range(len(pairs)):
         result += [pairs[i][0]]] * pairs[i][1]
+        
+    return result
     
