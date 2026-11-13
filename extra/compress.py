@@ -5,7 +5,7 @@ def compress(lst: list[int]) -> list[list[int, int]]:
     >>> compress([1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 2])
     [[1, 4], [0, 5], [1, 1], [2, 1]]
     """
-    result = []
+    result: list[list[int, int]] = []
     
     i = 0
     while i < len(lst):
