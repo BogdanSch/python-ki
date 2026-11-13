@@ -1,1 +1,2 @@
-def compress(lst: list[int]) -> list[]
+def compress(lst: list[int]) -> list[tuple[int, int]]:
+    
