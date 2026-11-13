@@ -10,7 +10,7 @@ def special_sort(l: list[int]) -> list[int]:
     >>> selection_sort([0])
     [0]
     >>> selection_sort([1, 0, 2, -99, 3, 5])
-    [-99, 0, 1, 2, 3]
+    [-99, 0, 1, 2, 3, 5]
     """
     for i in range(len(l)):
         for j in range(i + 1, len(l)):
