@@ -20,3 +20,5 @@ def compress(lst: list[int]) -> list[list[int, int]]:
         result.append(entry)
         
     return result
+    
+def 
