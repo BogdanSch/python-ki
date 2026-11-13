@@ -11,6 +11,6 @@ def selection_sort(l: list[int]) -> list[int]:
                 min_element_index = j
         
         if min_element_index != i:
-        l[i] = min_element
+            l[i] = min_element
     
     return l
