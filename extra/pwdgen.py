@@ -62,6 +62,7 @@ def new_password() -> str:
     
     return result
     
+# https://stackoverflow.com/questions/2979174/how-do-i-compute-the-approximate-entropy-of-a-bit-string 
 def entropy(string):
     "Calculates the Shannon entropy of a string"
 
