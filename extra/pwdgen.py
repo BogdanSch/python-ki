@@ -79,6 +79,7 @@ def print_avg_entropy() -> None:
     """
     for i in range(10000):
         password = new_password()
+        
 
 if __name__ == '__main__':
     print(new_password())
