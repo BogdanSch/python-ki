@@ -19,6 +19,7 @@ def new_password() -> str:
             result += "-"
     
     # Digit placement 
+    
     # Uppercase letter placement
     
 
