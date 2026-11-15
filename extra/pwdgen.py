@@ -31,7 +31,7 @@ def new_password() -> str:
     elif digit_choice == 1:
         digit_index = hyphen_indices[0] + 1
     elif digit_choice == 2:
-        digit_index[hyphen_indices[1] - 1] = digit_symbol
+        digit_index[hyphen_indices[1] - 1
     elif digit_choice == 3:
         digit_index[hyphen_indices[1] + 1] = digit_symbol
     else:
