@@ -40,7 +40,7 @@ def new_password() -> str:
     uppercase_letter_index = random.randint(len(result))
     while not result[uppercase_letter_index].isalpha():
         uppercase_letter_index = random.randint(len(result))
-    result = result[0:uppercase_letter_index] + result[uppercase_letter_index].upper() + result[uppercase_letter_index:uppercase_letter_index]
+    result = result[0:uppercase_letter_index] + result[uppercase_letter_index].upper() + result[uppercase_letter_index:-1]
     
     return result
 
