@@ -48,6 +48,13 @@ def new_password() -> str:
     uppercase_letter_index = random.randint(0, len(result))
     while not result[uppercase_letter_index].isalpha():
         uppercase_letter_index = random.randint(0, len(result))
+    temp_result = ""
+    for i in range(len(result)):
+        if digit_index == i:
+            temp_result += digit_symbol
+        else:
+            temp_result += result[i]
+    result = temp_result
     result = result[0:uppercase_letter_index] + result[uppercase_letter_index].upper() + result[uppercase_letter_index:-1]
     
     return result
