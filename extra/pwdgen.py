@@ -29,6 +29,7 @@ def new_password() -> str:
     if digit_choice == 0:
         result[hyphen_indices[0] - 1] = digit
     elif digit_choice == 1:
+        result[hyphen_indices[0] + 1] = digit
     # Uppercase letter placement
     
 
