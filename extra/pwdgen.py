@@ -16,7 +16,7 @@ def new_password() -> str:
         else:
             result += random.choice(VOWELS)
     
-    
+    # 
     # Digit placement 
     # Uppercase letter placement
     
