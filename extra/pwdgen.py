@@ -2,6 +2,7 @@ import random
 
 CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 VOWELS = "aeiou"
+PASSWORD_LENGTH = 20
 
 def get_random_group() -> str:
     return random.choice(CONSONANTS) + random.choice(VOWELS) + random.choice(CONSONANTS)
