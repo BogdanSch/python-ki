@@ -22,7 +22,7 @@ def new_password() -> str:
     digit = random.randint(9)
     digit_choice = random.randint(4)
     for i in range(len(result)):
-        if result[i] != "-":
+        if result[i] == "-":
     
     # Uppercase letter placement
     
