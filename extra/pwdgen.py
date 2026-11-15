@@ -12,8 +12,6 @@ def new_password() -> str:
     Genereert een wachtwoord
     """
     result = ""
-    first_hyphen_index = 0
-    second_hyphen_index = 0
     
     for i in range(1, 7):
         result += get_random_group()
@@ -21,6 +19,8 @@ def new_password() -> str:
             result += "-"
     
     # Digit placement 
+    first_hyphen_index = 0
+    second_hyphen_index = 0
     
     # Uppercase letter placement
     
