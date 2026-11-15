@@ -52,7 +52,7 @@ def new_password() -> str:
     temp_result = ""
     for i in range(len(result)):
         if uppercase_letter_index == i:
-            temp_result += digit_symbol
+            temp_result += result[i].upper()
         else:
             temp_result += result[i]
     result = temp_result
