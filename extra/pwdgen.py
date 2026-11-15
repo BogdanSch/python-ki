@@ -18,14 +18,15 @@ def new_password() -> str:
         if i % 2 == 0:
             result += "-"
     
-    # Digit placement
+    # Digit placement 
+    hyphen_indices = []
     digit = random.randint(9)
     digit_choice = random.randint(4)
     for i in range(len(result)):
-        if result[i] != "-":
-            continue
-        if digit_choice == 0
+        if result[i] == "-":
+            hyphen_indices.append(i)
     
+    if 
     # Uppercase letter placement
     
 
