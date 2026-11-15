@@ -7,7 +7,7 @@ def new_password() -> str:
     """
     Genereert een wachtwoord
     """
-    
+    random.choice()
 
 def print_avg_entropy() -> None:
     """
