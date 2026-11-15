@@ -77,10 +77,11 @@ def print_avg_entropy() -> None:
     """
     Genereert 10.000 wachtwoorden en berekent gemiddelde entropie
     """
+    SIZE = 10000
     total_entropy = 0
     for i in range(10000):
         password = new_password()
-        
+        total_entropy += 
 
 if __name__ == '__main__':
     print(new_password())
