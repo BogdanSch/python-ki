@@ -11,6 +11,8 @@ def new_password() -> str:
     result = random.choice(CONSONANTS)
     
     for i in range(1, 20):
+        if i % 2 == 0:
+            result += random.choice(CONSONANTS)
         result += random.choice(VOWELS)
 
 def print_avg_entropy() -> None:
