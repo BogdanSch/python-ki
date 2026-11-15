@@ -4,6 +4,8 @@ CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 VOWELS = "aeiou"
 PASSWORD_LENGTH = 20
 
+def 
+
 def new_password() -> str:
     """
     Genereert een wachtwoord
