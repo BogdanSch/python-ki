@@ -38,6 +38,7 @@ def new_password() -> str:
         result = result[:-2] + digit_symbol
     # Uppercase letter placement
     
+    
 
 def print_avg_entropy() -> None:
     """
