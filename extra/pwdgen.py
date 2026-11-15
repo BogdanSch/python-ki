@@ -14,7 +14,9 @@ def new_password() -> str:
         if i % 2 == 0:
             result += random.choice(CONSONANTS)
         else:
-        result += random.choice(VOWELS)
+            result += random.choice(VOWELS)
+    
+    
 
 def print_avg_entropy() -> None:
     """
