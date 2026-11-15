@@ -51,7 +51,7 @@ def new_password() -> str:
         
     temp_result = ""
     for i in range(len(result)):
-        if digit_index == i:
+        if uppercase_letter_index == i:
             temp_result += digit_symbol
         else:
             temp_result += result[i]
