@@ -18,8 +18,6 @@ def new_password() -> str:
         if i % 2 == 0:
             result += "-"
     
-    # Hyphen placement
-    
     # Digit placement 
     # Uppercase letter placement
     
