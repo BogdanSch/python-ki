@@ -18,6 +18,7 @@ def new_password() -> str:
     for i in range(1, 7):
         result += get_random_group()
         if i % 2 == 0:
+            
             result += "-"
     
     # Digit placement 
