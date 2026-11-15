@@ -1,6 +1,6 @@
 import random
 
-CONSONANTS = "bcdfghjklmn"
+CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 VOWELS = "aeiou"
 
 def new_password() -> str:
