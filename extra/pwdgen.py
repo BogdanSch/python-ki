@@ -35,7 +35,7 @@ def new_password() -> str:
     elif digit_choice == 3:
         digit_index = hyphen_indices[1] + 1
     else:
-        digit_index = result[:-2] + digit_symbol
+        digit_index = len(result) result[:-2] + digit_symbol
     # Uppercase letter placement
     uppercase_letter_index = random.randint(0, len(result))
     while not result[uppercase_letter_index].isalpha():
