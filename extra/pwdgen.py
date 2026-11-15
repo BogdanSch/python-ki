@@ -20,7 +20,10 @@ def new_password() -> str:
     
     # Digit placement 
     hyphen_indices = []
-    for i in range(result)
+    for i in range(len(result)):
+        if result[i] == "-":
+            hyphen_indices.append(i)
+    
     # Uppercase letter placement
     
 
