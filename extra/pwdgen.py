@@ -19,8 +19,7 @@ def new_password() -> str:
             result += "-"
     
     # Digit placement 
-    first_hyphen_index = 0
-    second_hyphen_index = 0
+    hyphen_indices = []
     
     # Uppercase letter placement
     
