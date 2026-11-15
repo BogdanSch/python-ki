@@ -13,7 +13,7 @@ def new_password() -> str:
     """
     result = ""
     
-    for i in range(1, PASSWORD_LENGTH - 2):
+    for i in range(6):
         
     
     # Hyphen placement
