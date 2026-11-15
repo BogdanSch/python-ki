@@ -16,8 +16,9 @@ def new_password() -> str:
         else:
             result += random.choice(VOWELS)
     
-    # Digit placement 
     
+    # Digit placement 
+    # Uppercase letter placement
     
 
 def print_avg_entropy() -> None:
