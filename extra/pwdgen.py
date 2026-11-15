@@ -24,6 +24,7 @@ def new_password() -> str:
         if result[i] == "-":
             hyphen_indices.append(i)
     
+    temp_result = 
     digit_symbol = str(random.randint(0, 9))
     digit_choice = random.randint(0, 4)
     if digit_choice == 0:
