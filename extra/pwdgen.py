@@ -56,7 +56,6 @@ def new_password() -> str:
         else:
             temp_result += result[i]
     result = temp_result
-    result = result[0:uppercase_letter_index] + result[uppercase_letter_index].upper() + result[uppercase_letter_index:-1]
     
     return result
 
