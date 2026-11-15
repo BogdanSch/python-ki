@@ -29,13 +29,13 @@ def new_password() -> str:
     if digit_choice == 0:
         digit_index = hyphen_indices[0] - 1
     elif digit_choice == 1:
-        result[hyphen_indices[0] + 1] = digit_symbol
+        digit_index = hyphen_indices[0] + 1] = digit_symbol
     elif digit_choice == 2:
-        result[hyphen_indices[1] - 1] = digit_symbol
+        digit_index[hyphen_indices[1] - 1] = digit_symbol
     elif digit_choice == 3:
-        result[hyphen_indices[1] + 1] = digit_symbol
+        digit_index[hyphen_indices[1] + 1] = digit_symbol
     else:
-        result = result[:-2] + digit_symbol
+        digit_index = result[:-2] + digit_symbol
     # Uppercase letter placement
     uppercase_letter_index = random.randint(0, len(result))
     while not result[uppercase_letter_index].isalpha():
