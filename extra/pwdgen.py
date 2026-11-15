@@ -1,5 +1,8 @@
 import random
 
+CONSONANTS = 
+VOWELS = 
+
 def new_password() -> str:
     """
     Genereert een wachtwoord
