@@ -24,7 +24,7 @@ def new_password() -> str:
     for i in range(len(result)):
         if result[i] != "-":
             continue
-        if 
+        if digit_choice == 0
     
     # Uppercase letter placement
     
