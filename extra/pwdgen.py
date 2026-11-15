@@ -10,7 +10,7 @@ def new_password() -> str:
     """
     result = random.choice(CONSONANTS)
     
-    for i in range(1, 20):
+    for i in range(1, PASSWORD_LENGTH - 2):
         if i % 2 == 0:
             result += random.choice(CONSONANTS)
         else:
