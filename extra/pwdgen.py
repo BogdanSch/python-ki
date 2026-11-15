@@ -21,7 +21,7 @@ def new_password() -> str:
     # Digit placement 
     hyphen_indices = []
     digit = random.randint(9)
-    digit_choice = random.ra
+    digit_choice = random.randint()
     for i in range(len(result)):
         if result[i] == "-":
             hyphen_indices.append(i)
