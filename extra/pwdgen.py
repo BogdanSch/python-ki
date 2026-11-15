@@ -4,7 +4,8 @@ CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 VOWELS = "aeiou"
 PASSWORD_LENGTH = 20
 
-def 
+def get_random_group() -> str:
+    return 
 
 def new_password() -> str:
     """
