@@ -40,7 +40,7 @@ def new_password() -> str:
     temp_result = ""
     for i in range(len(result)):
         if digit_index == i:
-            temp_result += dig
+            temp_result += digit_symbol
     # Uppercase letter placement
     uppercase_letter_index = random.randint(0, len(result))
     while not result[uppercase_letter_index].isalpha():
