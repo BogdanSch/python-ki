@@ -38,7 +38,7 @@ def new_password() -> str:
         result = result[:-2] + digit_symbol
     # Uppercase letter placement
     uppercase_letter_index = random.randint(len(result))
-    while not result[uppercase_letter_index].isalpha()
+    while not result[uppercase_letter_index].isalpha():
 
 def print_avg_entropy() -> None:
     """
