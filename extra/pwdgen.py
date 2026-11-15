@@ -18,6 +18,8 @@ def new_password() -> str:
         if i % 2 == 0:
             result += "-"
     
+    result += get_random_group()
+    
     # Digit placement 
     hyphen_indices = []
     for i in range(len(result)):
