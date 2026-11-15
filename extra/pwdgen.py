@@ -10,6 +10,7 @@ def new_password() -> str:
     """
     result = random.choice(CONSONANTS)
     
+    for i in range(20)
 
 def print_avg_entropy() -> None:
     """
