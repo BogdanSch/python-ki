@@ -7,6 +7,7 @@ def new_password() -> str:
     """
     Genereert een wachtwoord
     """
+    result = 
     random.choice(CONSONANTS)
 
 def print_avg_entropy() -> None:
