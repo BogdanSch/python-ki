@@ -19,6 +19,7 @@ def new_password() -> str:
         result += get_random_group()
         if i % 2 == 0:
             result += "-"
+            first_hyphen_index 
     
     # Digit placement 
     
