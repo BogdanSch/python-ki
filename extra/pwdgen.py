@@ -11,7 +11,7 @@ def new_password() -> str:
     """
     Genereert een wachtwoord
     """
-    result = random.choice(CONSONANTS)
+    result = ""
     
     for i in range(1, PASSWORD_LENGTH - 2):
         
