@@ -82,8 +82,9 @@ def print_avg_entropy() -> None:
     total_entropy = 0
     
     for i in range(SIZE):
-        password = new_password()
-        total_entropy += entropy(password)
+        total_entropy += entropy(new_password())
+    
+    return round(total_entropy / SIZE, 2)
 
 if __name__ == '__main__':
     print(new_password())
