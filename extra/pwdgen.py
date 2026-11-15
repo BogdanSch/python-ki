@@ -14,8 +14,9 @@ def new_password() -> str:
     result = ""
     
     for i in range(1, 7):
+        result += get_random_group()
         if i % 2 == 0:
-            result += get_random_group()
+            result += "-"
     
     # Hyphen placement
     
