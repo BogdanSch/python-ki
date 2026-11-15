@@ -27,7 +27,8 @@ def new_password() -> str:
     digit = random.randint(9)
     digit_choice = random.randint(4)
     if digit_choice == 0:
-        result[]
+        result[hyphen_indices[0] - 1] = digit
+    elif 
     # Uppercase letter placement
     
 
