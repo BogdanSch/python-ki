@@ -1,3 +1,5 @@
+import random
+
 def new_password() -> str:
     """
     Genereert een wachtwoord
