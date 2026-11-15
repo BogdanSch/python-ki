@@ -79,7 +79,8 @@ def print_avg_entropy() -> None:
     """
     SIZE = 10000
     total_entropy = 0
-    for i in range(10000):
+    
+    for i in range(SIZE):
         password = new_password()
         total_entropy += 
 
