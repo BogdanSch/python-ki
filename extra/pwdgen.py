@@ -13,7 +13,7 @@ def new_password() -> str:
     """
     result = ""
     
-    for i in range(1, SYLLABLE_COUNT + 1):
+    for i in range(1, SYLLABLE_COUNT):
         result += get_random_group()
         if i % 2 == 0:
             result += "-"
