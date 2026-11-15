@@ -2,6 +2,7 @@ import random
 
 CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 VOWELS = "aeiou"
+PASSWORD_LENGTH = 20
 
 def new_password() -> str:
     """
