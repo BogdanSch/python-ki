@@ -5,7 +5,7 @@ VOWELS = "aeiou"
 PASSWORD_LENGTH = 20
 
 def get_random_group() -> str:
-    return 
+    return random.choice(CONSONANTS) + random.choice(VOWELS) + random.choice(CONSONANTS)
 
 def new_password() -> str:
     """
