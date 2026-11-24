@@ -37,6 +37,7 @@ def create_board() -> Board:
     """
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
+            
 
 if __name__ == '__main__':
     print("Welkom bij de schuifpuzzel!")
