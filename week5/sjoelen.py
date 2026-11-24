@@ -57,7 +57,7 @@ if __name__ == "__main__":
     rest = 6
     
     for i in range(3):
-        rest = shuffle_round(board, discs)
+        rest = shuffle_round(board, rest)
         
     print(f"Je bent geëindigd op deze configuratie: {board}")
     print(f"Dat zijn {calculate_points(board)} punten!")
