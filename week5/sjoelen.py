@@ -6,9 +6,7 @@ def calculate_points(board: list[int]) -> int:
     volgorde van de punten is [2, 3, 4, 1]. Wanneer er een
     kwartet tussen zit, telt dit voor 20 punten.
     """
-    score = 0
-    
-    kwartet = min(board)
+    score =     kwartet = min(board)
     
     
     return score
