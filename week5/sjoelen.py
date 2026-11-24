@@ -1,3 +1,5 @@
+import random
+
 def calculate_points(board: list[int]) -> int:
     """
     Berekent het aantal punten dat is behaald met sjoelen. De
