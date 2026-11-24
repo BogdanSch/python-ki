@@ -49,7 +49,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
                 board[0] += 1
             elif 0.6 < gleuf_chance <= 0.8:
                 board[1] += 1
-            else: 
+            else:
                 board[2] += 1
         else: 
             aantal_mis += 1
