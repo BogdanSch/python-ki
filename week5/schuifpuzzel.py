@@ -28,6 +28,7 @@ def print_board(board: Board) -> None:
     Print alle rijen van het bord onder elkaar. Het format is zoals in de
     voorbeelden onderaan de opdracht.
     """
+    
 
 def create_board() -> Board:
     """
