@@ -19,7 +19,7 @@ def calculate_points(board: list[int]) -> int:
     if board[2] > 0:
         score += 4 * board[2]
     if board[3] > 0:
-        score += 1 * board[1]
+        score += 1 * board[3]
         
     
     return score
