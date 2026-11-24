@@ -49,7 +49,7 @@ def create_board() -> Board:
                 board[i][j] = current_number
             else:
                 board[i][j] = current_number
-                current_number += 1
+                current_number -= 1
     return board
 
 if __name__ == '__main__':
