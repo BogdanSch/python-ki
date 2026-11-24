@@ -7,7 +7,8 @@ def calculate_points(board: list[int]) -> int:
     kwartet tussen zit, telt dit voor 20 punten.
     >>> calculate_points([4, 3, 3, 5])
     64
-    >>> 
+    >>> calculate_points([4, 3, 3, 5])
+    >>> calculate_points([4, 3, 3, 5])
     """
     kwartet = min(board)
     score = kwartet * 20
