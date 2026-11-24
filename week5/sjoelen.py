@@ -22,14 +22,14 @@ def calculate_points(board: list[int]) -> int:
     for i in range(len(board_copy)):
         board_copy[i] -= kwartet
         
-    if board[0] > 0:
-        score += 2 * board[0]
-    if board[1] > 0:
-        score += 3 * board[1]
-    if board[2] > 0:
-        score += 4 * board[2]
-    if board[3] > 0:
-        score += 1 * board[3]
+    if board_copy[0] > 0:
+        score += 2 * board_copy[0]
+    if board_copy[1] > 0:
+        score += 3 * board_copy[1]
+    if board_copy[2] > 0:
+        score += 4 * board_copy[2]
+    if board_copy[3] > 0:
+        score += 1 * board_copy[3]
         
     return score
 
