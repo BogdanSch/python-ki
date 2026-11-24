@@ -57,7 +57,7 @@ if __name__ == "__main__":
     discs = 6
     rest = discs
     
-    while rest > 0:
+    for i in range(3):
         rest = shuffle_round(board, discs)
         
     print(f"Je bent geëindigd op deze configuratie: {board}")
