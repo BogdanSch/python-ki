@@ -15,7 +15,7 @@ def calculate_points(board: list[int]) -> int:
     if board[0] > 0:
         score += 2 * board[0]
     if board[1] > 0:
-        score += 3 * board[0]
+        score += 3 * board[1]
         
     
     return score
