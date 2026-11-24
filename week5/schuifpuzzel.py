@@ -38,7 +38,8 @@ def create_board() -> Board:
     current_number = 1
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
-            if i == TOTAL_ROWS - 1 and j == TOTA:
+            if i == TOTAL_ROWS - 1 and j == TOTAL_COLUMNS - 1:
+                
             Board[i][j] = current_number
             current_number += 1
             
