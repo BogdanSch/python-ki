@@ -8,6 +8,8 @@ def calculate_points(board: list[int]) -> int:
     """
     score = 0
     
+    
+    
     return score
     
 
