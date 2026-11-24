@@ -55,5 +55,5 @@ if __name__ == "__main__":
         rest = shuffle_round(board, discs)
         
     print(f"Je bent geëindigd op deze configuratie: {board}")
-    print(f"Dat zijn {calculate_points} punten!")
+    print(f"Dat zijn {calculate_points(board)} punten!")
     
