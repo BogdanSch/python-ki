@@ -37,7 +37,7 @@ def create_board() -> Board:
     >>> create_board()
     [[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]]
     """
-    board: list[list[int]] = []
+    board: list[list[int]] = [[0] * ]
     current_number = TOTAL_ROWS * TOTAL_COLUMNS - 1
     for i in range(TOTAL_ROWS):
         board.append([])
