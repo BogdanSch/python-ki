@@ -9,6 +9,7 @@ def calculate_points(board: list[int]) -> int:
     score = min(board) * 20
     
     
+    
     return score
     
 
