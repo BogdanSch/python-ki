@@ -22,5 +22,5 @@ if __name__ == "__main__":
     board = [0, 0, 0, 0]
     for i in range(3):
         shuffle_round()
-    print(f"Je bent geëindigd op deze configuratie: [4, 3, 3, 5]
+    print(f"Je bent geëindigd op deze configuratie: {[4, 3, 3, 5]
     
