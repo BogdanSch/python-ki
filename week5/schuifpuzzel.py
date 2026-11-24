@@ -7,7 +7,8 @@ Dit is nodig zodat de puzzel oplosbaar is, en dat zie je dus ook terug in het vo
 """
 
 Board = list[list[int]]
-
+TOTAL_ROWS = 4
+TOTAL_COLUMNS = 4
 
 def is_won(board: Board) -> bool:
     """
