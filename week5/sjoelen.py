@@ -14,6 +14,7 @@ def calculate_points(board: list[int]) -> int:
     >>> calculate_points([2, 5, 3, 2])
     53
     """
+    board_copy = 
     kwartet = min(board)
     score = kwartet * 20
     
