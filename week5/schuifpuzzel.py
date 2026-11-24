@@ -21,7 +21,7 @@ def is_won(board: Board) -> bool:
     """
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS - 1):
-            if i == TOTA: continue
+            if i == TOTAL_ROWS - 1 and TOTAL_COLUMNS - 1: continue
             if board[i][j] > board[i][j + 1]:
                 return False
     return True
