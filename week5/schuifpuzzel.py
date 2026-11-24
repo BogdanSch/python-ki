@@ -17,7 +17,7 @@ def is_won(board: Board) -> bool:
     >>> is_won([[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]])
     False
     >>> is_won([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]])
-    False
+    True
     """
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS - 1):
