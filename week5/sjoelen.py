@@ -30,7 +30,6 @@ def shuffle_round(board: list[int], discs: int) -> int:
             aantal_mis += 1
     
     return aantal_mis
-            
 
 if __name__ == "__main__":
     # [2, 3, 4, 1]
