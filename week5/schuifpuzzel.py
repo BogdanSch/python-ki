@@ -29,7 +29,7 @@ def print_board(board: Board) -> None:
     voorbeelden onderaan de opdracht.
     """
     for i in range(TOTAL_ROWS):
-        print()
+        print(board[i].join(" "))
 
 def create_board() -> Board:
     """
