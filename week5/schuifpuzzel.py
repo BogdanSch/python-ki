@@ -14,7 +14,8 @@ def is_won(board: Board) -> bool:
     """
     Controleert of het bord in een winnende configuratie staat. Geeft True als
     de configuratie winnend is, False als dat niet het geval is.
-    >>> 
+    >>> is_won([[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]])
+    False
     """
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS - 1):
