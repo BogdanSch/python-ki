@@ -26,7 +26,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
             else: 
                 board[2] += 1
         else: 
-        break
+            break
             
 
 if __name__ == "__main__":
