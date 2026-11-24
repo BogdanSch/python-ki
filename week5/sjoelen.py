@@ -17,8 +17,7 @@ def calculate_points(board: list[int]) -> int:
     kwartet = min(board)
     score = kwartet * 20
     
-    for i in range(len(board)):
-        board[i] -= kwartet
+
         
     if board[0] > 0:
         score += 2 * board[0]
