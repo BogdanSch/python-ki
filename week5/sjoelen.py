@@ -21,9 +21,7 @@ def calculate_points(board: list[int]) -> int:
     if board[3] > 0:
         score += 1 * board[3]
         
-    
     return score
-    
 
 def shuffle_round(board: list[int], discs: int) -> int:
     """
