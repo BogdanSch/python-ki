@@ -5,7 +5,7 @@ def calculate_points(board: list[int]) -> int:
     Berekent het aantal punten dat is behaald met sjoelen. De
     volgorde van de punten is [2, 3, 4, 1]. Wanneer er een
     kwartet tussen zit, telt dit voor 20 punten.
-    >>> 
+    >>> calculate_points()
     """
     kwartet = min(board)
     score = kwartet * 20
