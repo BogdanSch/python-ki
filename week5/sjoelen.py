@@ -34,7 +34,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
 if __name__ == "__main__":
     # [2, 3, 4, 1]
     board = [0, 0, 0, 0]
-    discs = 
+    discs = 7
     for i in range(3):
         shuffle_round()
         
