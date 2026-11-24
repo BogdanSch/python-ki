@@ -28,6 +28,8 @@ def shuffle_round(board: list[int], discs: int) -> int:
                 board[2] += 1
         else: 
             aantal_mis += 1
+    
+    return aantal_mis
             
 
 if __name__ == "__main__":
