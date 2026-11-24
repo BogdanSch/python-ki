@@ -55,7 +55,6 @@ def shuffle_round(board: list[int], discs: int) -> int:
 if __name__ == "__main__":
     board = [0, 0, 0, 0]
     discs = 6
-    rest = discs
     
     for i in range(3):
         rest = shuffle_round(board, discs)
