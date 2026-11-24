@@ -8,6 +8,7 @@ def calculate_points(board: list[int]) -> int:
     """
     score = 0
     
+    kwartet = min(board)
     
     
     return score
