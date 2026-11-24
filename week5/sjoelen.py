@@ -13,7 +13,8 @@ def calculate_points(board: list[int]) -> int:
         board[i] -= kwartet
         
     if board[0] > 0:
-        score += 2 * 
+        score += 2 * board[0]
+    if board[1] > 
     
     return score
     
