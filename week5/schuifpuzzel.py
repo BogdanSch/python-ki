@@ -15,7 +15,7 @@ def is_won(board: Board) -> bool:
     Controleert of het bord in een winnende configuratie staat. Geeft True als
     de configuratie winnend is, False als dat niet het geval is.
     """
-    
+    f
 
 def move_tile(board: Board, tile: int) -> bool:
     """
