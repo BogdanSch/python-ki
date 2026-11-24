@@ -35,7 +35,7 @@ def create_board() -> Board:
     Sorteert de nummers op aflopende volgorde van links boven naar rechts beneden.
     De volgorde van de tegels 1 en 2 is verwisseld.
     >>> create_board()
-    [[15, 14, 13, 12], []]
+    [[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], []]
     """
     board: list[list[int]] = []
     current_number = TOTAL_ROWS * TOTAL_COLUMNS - 1
