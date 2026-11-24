@@ -35,8 +35,8 @@ def create_board() -> Board:
     Sorteert de nummers op aflopende volgorde van links boven naar rechts beneden.
     De volgorde van de tegels 1 en 2 is verwisseld.
     """
-     for i in range(TOTAL_ROWS):
-      for j in range(TOTAL_COLUMNS):
+    for i in range(TOTAL_ROWS):
+        for j in range(TOTAL_COLUMNS):
 
 if __name__ == '__main__':
     print("Welkom bij de schuifpuzzel!")
