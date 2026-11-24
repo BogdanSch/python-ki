@@ -11,7 +11,7 @@ def calculate_points(board: list[int]) -> int:
     62
     >>> calculate_points([6, 2, 3, 7])
     57
-    >>> calculate_points([6, 2, 3, 7])
+    >>> calculate_points([2, 5, 3, 2])
     57
     """
     kwartet = min(board)
