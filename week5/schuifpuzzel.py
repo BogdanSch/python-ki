@@ -28,7 +28,10 @@ def print_board(board: Board) -> None:
     Print alle rijen van het bord onder elkaar. Het format is zoals in de
     voorbeelden onderaan de opdracht.
     >>> print_board([[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]])
-    
+     15 14 13 12
+ 11 10  9  8
+  7  6  5  4
+  3  1  2  0
     """
     for i in range(TOTAL_ROWS):
         print(board[i].join(" "))
