@@ -45,9 +45,8 @@ def create_board() -> Board:
             elif i == TOTAL_ROWS - 1 and j == TOTAL_COLUMNS - 2:
                 Board[i][j] = current_number
             else:
-                
-            Board[i][j] = current_number
-            current_number += 1
+                Board[i][j] = current_number
+                current_number += 1
             
 
 if __name__ == '__main__':
