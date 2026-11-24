@@ -15,7 +15,10 @@ def is_won(board: Board) -> bool:
     Controleert of het bord in een winnende configuratie staat. Geeft True als
     de configuratie winnend is, False als dat niet het geval is.
     """
-    f
+    for i in range(TOTAL_ROWS):
+        for j in range(TOTAL_COLUMNS):
+            print(f"{board[i][j]:>2} ", end="")
+        print()
 
 def move_tile(board: Board, tile: int) -> bool:
     """
