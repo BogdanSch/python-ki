@@ -15,7 +15,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     het aantal schijven dat nog over is om nog eens mee te schuiven.
     """
     if random.uniform(0,1) <= 0.25:
-        gleuf_ = random.uniform(0,1)
+        gleuf_chance = random.uniform(0,1)
         if gleuf <= 0.3:
         elif 0.3 < gleuf <= 0.6:
         elif 0.6 < gleuf 
