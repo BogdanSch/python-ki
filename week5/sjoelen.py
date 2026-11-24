@@ -23,5 +23,5 @@ if __name__ == "__main__":
     for i in range(3):
         shuffle_round()
     print(f"Je bent geëindigd op deze configuratie: {board}")
-    
+    calculate_points
     
