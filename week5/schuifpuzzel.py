@@ -16,7 +16,7 @@ def is_won(board: Board) -> bool:
     de configuratie winnend is, False als dat niet het geval is.
     """
     for i in range(TOTAL_ROWS):
-        for j in range(TOTAL_COLUMNS):
+        for j in range(TOTAL_COLUMNS - 1):
             if board[i][j] > board[i][j + 1]:
                 return False
     return True
