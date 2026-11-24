@@ -8,6 +8,7 @@ Dit is nodig zodat de puzzel oplosbaar is, en dat zie je dus ook terug in het vo
 
 Board = list[list[int]]
 
+
 def is_won(board: Board) -> bool:
     """
     Controleert of het bord in een winnende configuratie staat. Geeft True als
