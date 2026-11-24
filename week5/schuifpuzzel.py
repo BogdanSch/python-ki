@@ -27,7 +27,7 @@ def print_board(board: Board) -> None:
     """
     Print alle rijen van het bord onder elkaar. Het format is zoals in de
     voorbeelden onderaan de opdracht.
-    >>> print_board()
+    >>> print_board(board)
     """
     for i in range(TOTAL_ROWS):
         print(board[i].join(" "))
