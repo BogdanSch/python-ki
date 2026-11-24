@@ -35,6 +35,8 @@ if __name__ == "__main__":
     # [2, 3, 4, 1]
     board = [0, 0, 0, 0]
     discs = 7
+    rest = 7
+    
     while :
         rest = shuffle_round(board, discs)
         
