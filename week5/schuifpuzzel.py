@@ -37,7 +37,7 @@ def create_board() -> Board:
     >>> 
     """
     board: list[list[int]] = []
-    current_number = 1
+    current_number = 
     for i in range(TOTAL_ROWS):
         board.append([])
         for j in range(TOTAL_COLUMNS):
