@@ -51,7 +51,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
                 board[1] += 1
             else:
                 board[2] += 1
-        else: 
+        else:
             aantal_mis += 1
     
     return aantal_mis
