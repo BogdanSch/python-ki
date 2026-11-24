@@ -15,5 +15,6 @@ def shuffle_round(board: list[int], discs: int) -> int:
     
 
 if __name__ == "__main__":
-    for i in range(3)
+    for i in range(3):
+        
     
