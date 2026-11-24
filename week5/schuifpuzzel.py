@@ -38,7 +38,7 @@ def create_board() -> Board:
     current_number = 1
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
-            Board[i][j] = 
+            Board[i][j] = current_number
 
 if __name__ == '__main__':
     print("Welkom bij de schuifpuzzel!")
