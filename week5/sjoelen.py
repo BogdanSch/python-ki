@@ -16,9 +16,9 @@ def shuffle_round(board: list[int], discs: int) -> int:
     """
     if random.uniform(0,1) <= 0.25:
         gleuf_chance = random.uniform(0,1)
-        if gleuf <= 0.3:
-        elif 0.3 < gleuf <= 0.6:
-        elif 0.6 < gleuf 
+        if gleuf_chance <= 0.3:
+        elif 0.3 < gleuf_chance <= 0.6:
+        elif 0.6 < gleuf_chance 
         
     else:
 
