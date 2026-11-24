@@ -34,7 +34,8 @@ def print_board(board: Board) -> None:
     3 1 2 0
     """
     for i in range(TOTAL_ROWS):
-        print(f"{} ", end="")
+        for j in range(TOTAL_COLUMNS):
+            print(f"{board[i][j]} ", end="")
 
 def create_board() -> Board:
     """
