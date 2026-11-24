@@ -22,6 +22,7 @@ if __name__ == "__main__":
     board = [0, 0, 0, 0]
     for i in range(3):
         shuffle_round()
+        
     print(f"Je bent geëindigd op deze configuratie: {board}")
     print(f"Dat zijn {calculate_points} punten!")
     
