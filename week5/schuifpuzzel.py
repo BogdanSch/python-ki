@@ -45,7 +45,6 @@ def create_board() -> Board:
     
     current_number = TOTAL_ROWS * TOTAL_COLUMNS - 1
     for i in range(TOTAL_ROWS):
-        board.append([])
         for j in range(TOTAL_COLUMNS):
             if i == TOTAL_ROWS - 1 and j == TOTAL_COLUMNS - 1:
                 board[i][j] = 0
