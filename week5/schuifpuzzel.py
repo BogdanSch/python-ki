@@ -17,7 +17,9 @@ def is_won(board: Board) -> bool:
     """
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
-            if board[i]
+            if board[i] > board[j]:
+                return False
+    return True
 
 def move_tile(board: Board, tile: int) -> bool:
     """
