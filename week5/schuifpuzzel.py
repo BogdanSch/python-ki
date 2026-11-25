@@ -27,7 +27,7 @@ def is_won(board: Board) -> bool:
                 return False
     return True
     
-def is_valid_(point: tuple[int, int]) -> bool:
+def is_valid_point(point: tuple[int, int]) -> bool:
     """
     >>> check_boundaries((0, 0))
     True
