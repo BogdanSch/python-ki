@@ -35,7 +35,7 @@ def move_tile(board: Board, tile: int) -> bool:
     """
     move_directions = [-1, 1]
     
-    for tile in board:
+    for i in board:
         
     
     return True
