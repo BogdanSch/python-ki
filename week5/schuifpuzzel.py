@@ -43,6 +43,7 @@ def move_tile(board: Board, tile: int) -> bool:
     if len(tile_position) == 0:
         return False
     
+    x, 
     if board[tile_position[0] - 1][tile_position[1]]
         
     
