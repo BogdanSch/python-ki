@@ -34,6 +34,7 @@ def move_tile(board: Board, tile: int) -> bool:
     het bord in de oorspronkelijke configuratie en functie geeft False.
     """
     
+    
     return True
 
 def print_board(board: Board) -> None:
