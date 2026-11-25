@@ -28,7 +28,7 @@ def is_won(board: Board) -> bool:
     return True
     
 def check_boundaries(point: tuple[int, int]) -> bool:
-    return 0 =< tuple[0] < TOTAL_ROWS and 
+    return 0 =< tuple[0] < TOTAL_ROWS and <
 
 def move_tile(board: Board, tile: int) -> bool:
     """
