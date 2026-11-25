@@ -53,7 +53,7 @@ def move_tile(board: Board, tile: int) -> bool:
     configuratie van het bord en geeft True. Als dat niet het geval is, blijft
     het bord in de oorspronkelijke configuratie en functie geeft False.
     >>> board = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]]
-    >>> move_tile([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]], 15)
+    >>> move_tile(board, 15)
     True
     >>> board
     [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 0, 15]]
