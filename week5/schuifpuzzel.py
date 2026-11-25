@@ -24,7 +24,7 @@ def is_won(board: Board) -> bool:
         
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS - 1):
-            if i == TOTAL_ROWS - 1 and j + 1 == TOTAL_COLUMNS - 1: 
+            if i == TOTAL_ROWS - 1 and j == TOTAL_COLUMNS - 1: 
                 break
             if board[i][j] + 1 != board[i][j + 1]:
                 return False
