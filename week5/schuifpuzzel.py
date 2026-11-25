@@ -29,7 +29,8 @@ def is_won(board: Board) -> bool:
     
 def check_boundaries(point: tuple[int, int]) -> bool:
     """
-    >>> 
+    >>> check_boundaries(0, 0)
+    
     """
     return 0 =< tuple[0] < TOTAL_ROWS and 0 <= tuple[1] < TOTAL_COLUMNS
 
