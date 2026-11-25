@@ -51,10 +51,10 @@ def move_tile(board: Board, tile: int) -> bool:
             if board[i][j] == tile:
                 tile_position = (i, j)
     
-    print(tile_position)
     if tile != None or len(tile_position) == 0:
         return False
     
+    print(tile_position)
     row, col = tile_position
     possible_moves = [(row - 1, col), (row + 1, col), (row, col - 1), (row, col + 1)]
     for point in possible_moves:
