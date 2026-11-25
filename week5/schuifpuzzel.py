@@ -51,7 +51,7 @@ def move_tile(board: Board, tile: int) -> bool:
             if board[i][j] == tile:
                 tile_position = (i, j)
     
-    print(tile_position)
+    print()
     if tile != None:
         return False
     
