@@ -44,7 +44,7 @@ def move_tile(board: Board, tile: int) -> bool:
         return False
     
     row, col = tile_position
-    if board[tile_position[0] - 1][tile_position[1]]
+    if board[row - 1][tile_position[1]]
         
     
     return True
