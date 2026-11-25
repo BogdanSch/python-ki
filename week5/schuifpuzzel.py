@@ -44,7 +44,8 @@ def move_tile(board: Board, tile: int) -> bool:
         return False
     
     row, col = tile_position
-    if board[row - 1][col] == 0 or 
+    # CHeck boundaries
+    if board[row - 1][col] == 0 or board[row + 1][col] == 0
         
     
     return True
