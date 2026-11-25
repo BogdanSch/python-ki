@@ -33,7 +33,7 @@ def move_tile(board: Board, tile: int) -> bool:
     configuratie van het bord en geeft True. Als dat niet het geval is, blijft
     het bord in de oorspronkelijke configuratie en functie geeft False.
     """
-    coordinats = [-1, 1]
+    move_directions = [-1, 1]
     
     return True
 
