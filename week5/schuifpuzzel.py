@@ -18,6 +18,9 @@ def is_won(board: Board) -> bool:
     False
     >>> is_won([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]])
     True
+    >>> is_won([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 0, 15]])
+    False
+    
     """
     if board[-1][-1] != 0:
         return False
