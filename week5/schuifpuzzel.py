@@ -25,6 +25,7 @@ def is_won(board: Board) -> bool:
                 continue
             if board[i][j] == board[i][j + 1] + 1:
                 return False
+    
     return True
     
 def is_valid_point(point: tuple[int, int]) -> bool:
