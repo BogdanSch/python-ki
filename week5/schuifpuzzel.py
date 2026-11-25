@@ -38,7 +38,7 @@ def move_tile(board: Board, tile: int) -> bool:
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
             if board[i][j] == move_tile
-                
+                tile_position = ()
         
     
     return True
