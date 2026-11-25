@@ -1,11 +1,3 @@
-# 4 x 4 grid
-"""
-Er bestaan schuifpuzzels van verschillende groottes; 
-belangrijk om te weten is, is dat wanneer een zijde een even aantal velden heeft (en er dus een oneven aantal tegels zijn) 
-de tegels 1 & 2 moeten worden omgewisseld.
-Dit is nodig zodat de puzzel oplosbaar is, en dat zie je dus ook terug in het voorbeeld hierboven.
-"""
-
 Board = list[list[int]]
 TOTAL_ROWS = 4
 TOTAL_COLUMNS = 4
@@ -28,7 +20,7 @@ def is_won(board: Board) -> bool:
         
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS - 1):
-            if i == TOTAL_ROWS - 1 and j == TOTAL_COLUMNS - 2: 
+            if i == TOTAL_ROWS - 1 and j == TOTAL_COLUMNS - 2:
                 break
             if board[i][j] + 1 != board[i][j + 1]:
                 return False
@@ -63,8 +55,7 @@ def move_tile(board: Board, tile: int) -> bool:
     >>> board
     [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]]
     """
-    move_directions = [-1, 1]
-    
+    tile_position = None
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
             if board[i][j] == tile:
@@ -77,7 +68,10 @@ def move_tile(board: Board, tile: int) -> bool:
     possible_moves = [(row - 1, col), (row + 1, col), (row, col - 1), (row, col + 1)]
     for point in possible_moves:
         if is_valid_point(point) and board[point[0]][point[1]] == 0:
-            board[row][col], board[point[0]][point[1]] = board[point[0]][point[1]], board[row][col]
+            board[row][col], board[point[0]][point[1]] = (
+                board[point[0]][point[1]],
+                board[row][col],
+            )
             return True
     
     return False
@@ -86,7 +80,9 @@ def print_board(board: Board) -> None:
     """
     Print alle rijen van het bord onder elkaar. Het format is zoals in de
     voorbeelden onderaan de opdracht.
-    >>> print_board([[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]])
+    >>> print_board(
+    ...     [[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]]
+    ... )
      15 14 13 12
      11 10  9  8
       7  6  5  4
@@ -100,7 +96,8 @@ def print_board(board: Board) -> None:
 def create_board() -> Board:
     """
     Initialiseert een bord van formaat 4 x 4.
-    Sorteert de nummers op aflopende volgorde van links boven naar rechts beneden.
+    Sorteert de nummers op aflopende volgorde van links boven naar rechts
+    beneden.
     De volgorde van de tegels 1 en 2 is verwisseld.
     >>> create_board()
     [[15, 14, 13, 12], [11, 10, 9, 8], [7, 6, 5, 4], [3, 1, 2, 0]]
