@@ -27,7 +27,7 @@ def is_won(board: Board) -> bool:
                 return False
     return True
     
-
+def check_boundaries()
 
 def move_tile(board: Board, tile: int) -> bool:
     """
