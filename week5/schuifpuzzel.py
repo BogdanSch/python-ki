@@ -39,7 +39,7 @@ def move_tile(board: Board, tile: int) -> bool:
     Als de te verplaatsten tegel verplaatsbaar is: schuift de tegel in de
     configuratie van het bord en geeft True. Als dat niet het geval is, blijft
     het bord in de oorspronkelijke configuratie en functie geeft False.
-    >>> is_won([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]])
+    >>> move_tile([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]])
     True
     """
     move_directions = [-1, 1]
