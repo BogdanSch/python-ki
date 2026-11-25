@@ -56,7 +56,7 @@ def move_tile(board: Board, tile: int) -> bool:
         if check_boundaries(point) and board[point[0]][point[1]]:
             return True
     
-    return True
+    return False
 
 def print_board(board: Board) -> None:
     """
