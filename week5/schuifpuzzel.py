@@ -43,7 +43,7 @@ def is_valid_point(point: tuple[int, int]) -> bool:
     >>> is_won([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 12, 11], [13, 14, 15, 0]])
     False
     >>> is_valid_point((4, 0))
-False
+    False
 
     """
     return 0 <= point[0] < TOTAL_ROWS and 0 <= point[1] < TOTAL_COLUMNS
