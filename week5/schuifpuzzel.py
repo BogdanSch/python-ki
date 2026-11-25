@@ -76,7 +76,6 @@ def print_board(board: Board) -> None:
      7  6  5  4
      3  1  2  0
     """
-    def print_board(board: Board) -> None:
     for row in board:
         for value in row:
             print(f"{value:>3}", end="")
