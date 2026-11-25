@@ -26,6 +26,8 @@ def is_won(board: Board) -> bool:
             if board[i][j] > board[i][j + 1]:
                 return False
     return True
+    
+
 
 def move_tile(board: Board, tile: int) -> bool:
     """
