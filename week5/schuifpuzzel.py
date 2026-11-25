@@ -78,7 +78,7 @@ def print_board(board: Board) -> None:
     """
     for row in board:
         for value in row:
-            print(f"{value:>3}", end="")
+            print(f"{value:>2}", end="")
         print()
 
 def create_board() -> Board:
