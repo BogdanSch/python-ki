@@ -48,6 +48,7 @@ def move_tile(board: Board, tile: int) -> bool:
     if board[row - 1][col] == 0 or
         board[row + 1][col] == 0 or
         board[row][col + 1] == 0 or
+        board[row][col + 1] == 0
         
     
     return True
