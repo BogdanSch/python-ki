@@ -52,12 +52,7 @@ def move_tile(board: Board, tile: int) -> bool:
     
     row, col = tile_position
     possible_moves = [board[row - 1][col], board[row + 1][col], board[row][col - 1], board[row][col + 1]]
-    # CHeck boundaries
-    if  == 0 or
-         or
-         == 0 or
-         == 0
-        
+    
     
     return True
 
