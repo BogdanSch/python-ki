@@ -40,6 +40,7 @@ def is_valid_point(point: tuple[int, int]) -> bool:
     True
     >>> is_valid_point((-1, 0))
     False
+    
     """
     return 0 <= point[0] < TOTAL_ROWS and 0 <= point[1] < TOTAL_COLUMNS
 
