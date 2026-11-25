@@ -78,6 +78,7 @@ def print_board(board: Board) -> None:
     """
     for i in range(TOTAL_ROWS):
         for j in range(TOTAL_COLUMNS):
+            if 
             print(f"{board[i][j]:>2} ", end="")
         print()
 
