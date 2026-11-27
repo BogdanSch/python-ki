@@ -58,6 +58,7 @@ def search_index(word: str, book_index: Index) -> list[int]:
     """
     Find the word in book_index. Returns a list of the line numbers where
     word occurs. If the word does not occur, returns an empty list.
+    
     >>> search_index()
     
     """
