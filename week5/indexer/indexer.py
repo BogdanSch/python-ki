@@ -64,7 +64,8 @@ def search_index(word: str, book_index: Index) -> list[int]:
     >>> search_index('llm', book_index)
     [1, 56, 128]
     >>> search_index('llm', book_index)
-    
+    [3, 5, 25, 136]
+    >>> 
     """
     return book_index.get(word, [])
 
