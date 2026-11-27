@@ -59,7 +59,7 @@ def search_index(word: str, book_index: Index) -> list[int]:
     Find the word in book_index. Returns a list of the line numbers where
     word occurs. If the word does not occur, returns an empty list.
     >>> book_index: Index = {'book': [10, 25, 120], 'llm': [1, 56, 128]}
-    >>> book_index['chat'] = [3, 5, 25, 136] 
+    >>> book_index['chat'] = [3, 5, 25, 136]
     >>> search_index('book', book_index)
     [10, 25, 120]
     >>> search_index('llm', book_index)
