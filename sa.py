@@ -1,1 +1,3 @@
-gfffgg
+import datetime
+
+datetime.now()
