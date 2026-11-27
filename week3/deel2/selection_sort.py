@@ -11,6 +11,7 @@ def selection_sort(l: list[int]) -> list[int]:
     [0]
     >>> selection_sort([1, 0, 2, -99, 3])
     [-99, 0, 1, 2, 3]
+
     """
     for i in range(len(l)):
         min_index: int = i
