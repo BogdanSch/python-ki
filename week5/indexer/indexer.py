@@ -75,7 +75,8 @@ def search_index(word: str, book_index: Index) -> list[int]:
 
 def show_search_results(searched_word: str, line_numbers: list[int]) -> None:
     """
-    Displays the search results (line_numbers) nicely, like in the
+    Displays the search results (line_numbers) nicely, 
+    like in the
     examples.
     >>> show_search_results('book', [100, 200, 1121])
     The word "book" can be found on lines: 100, 200, 1121.
