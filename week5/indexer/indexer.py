@@ -18,7 +18,8 @@ def read_stopwords() -> set[str]:
 
 def convert_word(word: str) -> str:
     """
-    Strips a word from all puncuation, whitespace, and digits. Then
+    Strips a word from all puncuation, whitespace, and digits. 
+    Then
     converts the word into all lower case.
     Don't worry about any other strange characters that are left
     in the text.
