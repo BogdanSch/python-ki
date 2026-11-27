@@ -47,7 +47,8 @@ def create_index(filename: str, stopwords: set[str]) -> Index:
         for line_number, line in enumerate(file, 1):
             for word in line.split():
                 processed_word = convert_word(word)
-                if processed_word in stopwords or processed_word in string.whitespace:
+                if processed_word in stopwords or
+                    processed_word in string.whitespace:
                     continue
 
                 words_index.setdefault(processed_word, []).append(line_number)
