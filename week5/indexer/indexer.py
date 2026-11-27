@@ -77,7 +77,7 @@ def show_search_results(searched_word: str, line_numbers: list[int]) -> None:
     >>> show_search_results('book', [100, 200, 1121])
     'The word "book" can be found on lines: 100, 200, 1121.'
     >>> show_search_results('pattern', [20, 120, 133, 456])
-    'The word "pattern" can be found on lines: 20, 120, 133, 456.'
+    The word "pattern" can be found on lines: 20, 120, 133, 456.
     """
     lines = ", ".join(str(line_number) for line_number in line_numbers)
     print(f'The word "{searched_word}" can be found on lines: {lines}.')
